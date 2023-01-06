@@ -150,6 +150,8 @@
 		margin-bottom: 3rem
 .container-tabs
 	position: relative
+	padding: 12px
+	margin: 16px
 	& .dropdawn-container
 		margin-bottom: 1rem
 .content-consumer
@@ -170,16 +172,15 @@
 	max-width: 100%
 	line-height: 24px
 .dropdawn-container
-
 	>p
 		position: relative
 		max-height: 0px
 		overflow: hidden
-		transition: all 0.2s
+		transition: all 2s
 		width: 100%
 	& .show
 		max-height: 800px
-		background: #d60909
+		background: #fff
 		color: #111
 		line-height: 1
 		padding: 9px
@@ -189,15 +190,12 @@
 		img
 			position: absolute
 			max-width: 100%
-			margin-left: 15rem
-			top: 50%
-			transform: translate(0,-50%)
-			margin-top: 0
-		&::after
-			animation-name: slide-in-keyframes
-			animation-duration: .75s
-			animation-fill-mode: both
-			animation-timing-function: ease-out
+			top: 60%
+			left: 30%
+			transform: translate(0,-100%)
+			margin: 0
+			width: 75%
+			// margin-left: 30rem
 	& .hide
 		max-height: 0px
 		display: none
@@ -233,11 +231,42 @@
 
 .efect-hover:hover
 	color: #46a094
-
-@media (max-width: 1023px)
-	.column-2
-		// display: inline-grid
+/* Media Queries */
+@media (max-width: 860px)
+	.dropdawn-container
+		.show
+			max-height: 800px
+			background: #fff
+			color: #111
+			line-height: 1
+			padding: 9px
+			text-align: justify
+			width: 100%
+			max-width: 100%
+			img
+				position: relative
+				max-width: 100%
+				left: 0
+				transform: translate(0, 5%)
+				overflow: hidden
+				float: center
 @media (max-width: 620px)
 	.container-row
 		display: flex
 		flex-direction: column
+	.dropdawn-container
+		.show
+			max-height: 800px
+			background: #fff
+			color: #111
+			line-height: 1
+			padding: 9px
+			text-align: justify
+			width: 100%
+			max-width: 100%
+			img
+				position: relative
+				max-width: 100%
+				left: 35px
+				transform: translate(0, 5%)
+				overflow: hidden

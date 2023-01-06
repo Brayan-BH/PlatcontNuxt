@@ -25,8 +25,12 @@
                                 <p>PLATCONT es más que un software. De la mano con un servicio <br> permanente de
                                     soporte, aseguramos el
                                     éxito
-                                    de tu proyecto <br> y te acompañamos en tu crecimiento</p><a><button
-                                        class="button-clasic" type="button" role="button">Contactanos</button></a>
+                                    de tu proyecto <br> y te acompañamos en tu crecimiento</p>
+                                <a>
+                                    <button class="button-clasic" type="button" role="button">
+                                        Contactanos
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -94,13 +98,14 @@
                         <h2>Mantente conectado y completa tareas con Platcont</h2>
                         <div class="container-tabs">
                             <div class="dropdawn-container">
-                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(1)">
-                                    <i class="material-icons">
-                                        account_balance
-                                    </i>
-                                    Financiera
-                                </button>
                                 <div :class="[(interaction.tab == 1) ? 'show' : 'hide']">
+                                    <button class="button-clasic-white" type="button" role="button"
+                                        @click="tabClick(1)">
+                                        <i class="material-icons">
+                                            account_balance
+                                        </i>
+                                        Financiera
+                                    </button>
                                     <p>Lorem commodo ad aute ea do occaecat elit nulla voluptate laboris non anim
                                         commodo.Sunt sit ipsum deserunt deserunt irure ad. Dolor sint dolor commodo
                                         pariatur
@@ -259,8 +264,11 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Precios -->
+                    <div>
+                        
+                    </div>
                 </div>
-
             </div>
         </div>
     </main>
