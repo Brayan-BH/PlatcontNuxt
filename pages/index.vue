@@ -227,7 +227,7 @@
                                 </button>
                                 <div :class="[(interaction.tab == 7) ? 'show' : 'hide']">
                                     <p>
-                                    <p>Lorem commodo ad aute ea do occaecat elit nulla voluptate laboris non anim
+                                        Lorem commodo ad aute ea do occaecat elit nulla voluptate laboris non anim
                                         commodo.Sunt sit ipsum deserunt deserunt irure ad. Dolor sint dolor commodo
                                         pariatur
                                         consequat enim laboris laborum tempor sit ipsum eiusmod cillum ea. In minim
@@ -235,7 +235,7 @@
                                         veniam amet incididunt est officia aliquip est est. Ea reprehenderit quis magna
                                         cupidatat et consequat. Ad cillum voluptate veniam cupidatat. Laborum pariatur
                                         non
-                                        adipisicing labore sit veniam velit et officia tempor culpa pariatur.</p>
+                                        adipisicing labore sit veniam velit et officia tempor culpa pariatur.
                                     </p>
                                     <img src="/img/platcont-view.png">
                                 </div>
@@ -249,7 +249,7 @@
                                 </button>
                                 <div :class="[(interaction.tab == 8) ? 'show' : 'hide']">
                                     <p>
-                                    <p>Lorem commodo ad aute ea do occaecat elit nulla voluptate laboris non anim
+                                        Lorem commodo ad aute ea do occaecat elit nulla voluptate laboris non anim
                                         commodo.Sunt sit ipsum deserunt deserunt irure ad. Dolor sint dolor commodo
                                         pariatur
                                         consequat enim laboris laborum tempor sit ipsum eiusmod cillum ea. In minim
@@ -257,7 +257,7 @@
                                         veniam amet incididunt est officia aliquip est est. Ea reprehenderit quis magna
                                         cupidatat et consequat. Ad cillum voluptate veniam cupidatat. Laborum pariatur
                                         non
-                                        adipisicing labore sit veniam velit et officia tempor culpa pariatur.</p>
+                                        adipisicing labore sit veniam velit et officia tempor culpa pariatur.
                                     </p>
                                     <img src="/img/platcont-view.png">
                                 </div>
@@ -265,8 +265,27 @@
                         </div>
                     </div>
                     <!-- Precios -->
-                    <div>
-                        
+                    <div class="layout-main">
+                        <div class="layout-header">
+                            <h2>
+                                Buscar un Plan
+                            </h2>
+                            <p>
+                                Tanto si quieres conectarte con familiares y amigos, como aprender de forma remota o
+                                colaborar con tu equipo, hay un plan de Microsoft 365 que satisface tus necesidades.
+                            </p>
+                        </div>
+                        <div class="layout-container">
+                            <div class="layout-1">
+                                <img src="/img/precios/personal-family.avif" alt="">
+                            </div>
+                            <div class="layout-1">
+
+                            </div>
+                            <div class="layout-1">
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
