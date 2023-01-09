@@ -5,7 +5,6 @@
     border-color: #43be1e
     background-color: #43be1e
     color: #fff
-    // margin-bottom: 20px
     margin-right: 20px
     border: 2px solid transparent
     border-radius: 4px
@@ -41,8 +40,29 @@
         background-color: #fff
         color: #111
         font-weight: bold
-        // border-color: #2e631e
-        // box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px
+        -webkit-box-shadow: -1px 18px 81px 1px rgba(143,127,143,0.72)
+        -moz-box-shadow: -1px 18px 81px 1px rgba(143,127,143,0.72)
+        box-shadow: -1px 18px 81px 1px rgba(143,127,143,0.72)
+
+.button-clasic-prices-white
+    border-color: #b6b8b5
+    background-color: #fff
+    color: #111
+    margin-right: 20px
+    border: 2px solid transparent
+    border-radius: 4px
+    min-width: 164px
+    text-decoration: none
+    font-weight: 700
+    text-align: left
+    font-size: 15px
+    width: 300px
+    padding: 1rem 3rem 1rem 3rem
+    max-width: 100%
+    &:hover
+        background-color: #fff
+        color: #111
+        font-weight: bold
         -webkit-box-shadow: -1px 18px 81px 1px rgba(143,127,143,0.72)
         -moz-box-shadow: -1px 18px 81px 1px rgba(143,127,143,0.72)
         box-shadow: -1px 18px 81px 1px rgba(143,127,143,0.72)
@@ -94,6 +114,71 @@
         font-weight: bold
         border-color: #2e631e
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px
+
+.card-container
+    display: flex
+    justify-content: flex-start
+
+.card
+    width: 390px
+    max-width: 100%
+    height: 100%
+    border-radius: 20px
+    background: #f5f5f5
+    position: relative
+    padding: 1.8rem
+    border: 2px solid #c3c6ce
+    transition: 0.5s ease-out
+    overflow: visible
+    top: -50px
+
+    &-head
+        color: black
+        // height: 100%
+        display: grid
+        place-content: center
+        padding-bottom: 0.5rem
+        border-bottom: 2px solid #c3c6ce
+
+    &-button
+        transform: translate(-50%, 125%)
+        width: 55%
+        height: 15%
+        border-radius: 20px
+        border-radius: 1rem
+        border: none
+        background-color: #43be1e
+        color: #fff
+        font-size: 1rem
+        padding: .5rem 1rem
+        position: absolute
+        left: 50%
+        bottom: 0
+        opacity: 0
+        transition: 0.3s ease-out
+        margin-top: 1rem
+
+.text-body
+    color: rgb(134, 134, 134)
+    padding: 0.5rem
+
+/*Text*/
+.text-title
+    font-size: 1.5em
+    font-weight: bold
+    text-align: center
+
+/*Hover*/
+.card:hover
+    border-color: #43be1e
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25)
+
+.card:hover .card-button
+    transform: translate(-50%, 50%)
+    opacity: 1
+.size-1
+    font-size: 5rem
+
 @media (max-width: 860px)
     .button-clasic-white
         border-color: #b6b8b5
@@ -126,4 +211,3 @@
         width: 40%
         padding: 1rem 3rem 1rem 3rem
         max-width: 300px
-    

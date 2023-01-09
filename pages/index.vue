@@ -118,6 +118,7 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
+                            <!-- Contabilidad -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(2)">
                                     <i class="material-icons">
@@ -138,6 +139,7 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
+                            <!-- Recursos Humanos -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(3)">
                                     <i class="material-icons">
@@ -158,6 +160,7 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
+                            <!-- Inventario -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(4)">
                                     <i class="material-icons">
@@ -178,6 +181,7 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
+                            <!-- Taxi -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(5)">
                                     <i class="material-icons">
@@ -198,6 +202,7 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
+                            <!-- Transporte -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(6)">
                                     <i class="material-icons">
@@ -218,6 +223,7 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
+                            <!-- Costos -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(7)">
                                     <i class="material-icons">
@@ -240,6 +246,7 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
+                            <!-- Activos fijos -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(8)">
                                     <i class="material-icons">
@@ -248,6 +255,52 @@
                                     Activos Fijos
                                 </button>
                                 <div :class="[(interaction.tab == 8) ? 'show' : 'hide']">
+                                    <p>
+                                        Lorem commodo ad aute ea do occaecat elit nulla voluptate laboris non anim
+                                        commodo.Sunt sit ipsum deserunt deserunt irure ad. Dolor sint dolor commodo
+                                        pariatur
+                                        consequat enim laboris laborum tempor sit ipsum eiusmod cillum ea. In minim
+                                        deserunt
+                                        veniam amet incididunt est officia aliquip est est. Ea reprehenderit quis magna
+                                        cupidatat et consequat. Ad cillum voluptate veniam cupidatat. Laborum pariatur
+                                        non
+                                        adipisicing labore sit veniam velit et officia tempor culpa pariatur.
+                                    </p>
+                                    <img src="/img/platcont-view.png">
+                                </div>
+                            </div>
+                            <!-- Caja -->
+                            <div class="dropdawn-container">
+                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(9)">
+                                    <i class="material-icons">
+                                        point_of_sale
+                                    </i>
+                                    Caja
+                                </button>
+                                <div :class="[(interaction.tab == 9) ? 'show' : 'hide']">
+                                    <p>
+                                        Lorem commodo ad aute ea do occaecat elit nulla voluptate laboris non anim
+                                        commodo.Sunt sit ipsum deserunt deserunt irure ad. Dolor sint dolor commodo
+                                        pariatur
+                                        consequat enim laboris laborum tempor sit ipsum eiusmod cillum ea. In minim
+                                        deserunt
+                                        veniam amet incididunt est officia aliquip est est. Ea reprehenderit quis magna
+                                        cupidatat et consequat. Ad cillum voluptate veniam cupidatat. Laborum pariatur
+                                        non
+                                        adipisicing labore sit veniam velit et officia tempor culpa pariatur.
+                                    </p>
+                                    <img src="/img/platcont-view.png">
+                                </div>
+                            </div>
+                            <!-- Financiera -->
+                            <div class="dropdawn-container">
+                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(10)">
+                                    <i class="material-icons">
+                                        credit_score
+                                    </i>
+                                    Financiera
+                                </button>
+                                <div :class="[(interaction.tab == 10) ? 'show' : 'hide']">
                                     <p>
                                         Lorem commodo ad aute ea do occaecat elit nulla voluptate laboris non anim
                                         commodo.Sunt sit ipsum deserunt deserunt irure ad. Dolor sint dolor commodo
@@ -276,17 +329,228 @@
                             </p>
                         </div>
                         <div class="layout-container">
-                            <div class="layout-1">
+                            <div class="layout-info">
                                 <img src="/img/precios/personal-family.avif" alt="">
+                                <!-- card -->
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="card-head">
+                                            <p class="text-title">
+                                                Pequeña Empresa
+                                            </p>
+                                            <div class="price">
+                                                <span>S./</span>
+                                                <span class="size-1">150</span>
+                                                <span>/mes</span>
+                                            </div>
+                                        </div>
+                                        <div class="text-body">
+                                             <!-- caja -->
+                                             <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(9)">
+                                                    <i class="material-icons">
+                                                        point_of_sale
+                                                    </i>
+                                                    Caja
+                                                </button>
+                                            </div>
+                                            <!-- Financiera -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        credit_score
+                                                    </i>
+                                                    Financiera
+                                                </button>
+                                            </div>
+                                            <!-- Multi Sucursal -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        apartment
+                                                    </i>
+                                                    Multi Sucursal
+                                                </button>
+                                            </div>
+                                            <!-- Contabilidad -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        account_balance_wallet
+                                                    </i>
+                                                    Contabilidad
+                                                </button>
+                                            </div>
+                                            <!-- Stock -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        inventory
+                                                    </i>
+                                                    stock
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <button class="card-button">
+                                            Agrega más caracteristicas a su plan
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="layout-1">
-
+                            <div class="layout-info">
+                                <img src="/img/precios/personal-family.avif" alt="">
+                                <!-- card -->
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="card-head">
+                                            <p class="text-title">
+                                                Mediana Empresa
+                                            </p>
+                                            <div class="price">
+                                                <span>S./</span>
+                                                <span class="size-1">250</span>
+                                                <span>/mes</span>
+                                            </div>
+                                        </div>
+                                        <div class="text-body">
+                                            <!-- caja -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(9)">
+                                                    <i class="material-icons">
+                                                        point_of_sale
+                                                    </i>
+                                                    Caja
+                                                </button>
+                                            </div>
+                                            <!-- Financiera -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        credit_score
+                                                    </i>
+                                                    Financiera
+                                                </button>
+                                            </div>
+                                            <!-- Multi Sucursal -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        apartment
+                                                    </i>
+                                                    Multi Sucursal max 3
+                                                </button>
+                                            </div>
+                                            <!-- Contabilidad -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        account_balance_wallet
+                                                    </i>
+                                                    Contabilidad
+                                                </button>
+                                            </div>
+                                            <!-- Stock -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        inventory
+                                                    </i>
+                                                    stock
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <button class="card-button">
+                                            Agrega más caracteristicas a su plan
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="layout-1">
-
+                            <div class="layout-info">
+                                <img src="/img/precios/personal-family.avif" alt="">
+                                <!-- card -->
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="card-head">
+                                            <p class="text-title">
+                                                Grande Empresa
+                                            </p>
+                                            <div class="price">
+                                                <span>S./</span>
+                                                <span class="size-1">500</span>
+                                                <span>/mes</span>
+                                            </div>
+                                        </div>
+                                        <div class="text-body">
+                                          <!-- caja -->
+                                          <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(9)">
+                                                    <i class="material-icons">
+                                                        point_of_sale
+                                                    </i>
+                                                    Caja
+                                                </button>
+                                            </div>
+                                            <!-- Financiera -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        credit_score
+                                                    </i>
+                                                    Financiera
+                                                </button>
+                                            </div>
+                                            <!-- Multi Sucursal -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        apartment
+                                                    </i>
+                                                    Multi Sucursal ilimitado
+                                                </button>
+                                            </div>
+                                            <!-- Contabilidad -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        account_balance_wallet
+                                                    </i>
+                                                    Contabilidad
+                                                </button>
+                                            </div>
+                                            <!-- Stock -->
+                                            <div class="dropdawn-container">
+                                                <button class="button-clasic-prices-white" type="button" role="button"
+                                                    @click="tabClick(10)">
+                                                    <i class="material-icons">
+                                                        credit_score
+                                                    </i>
+                                                    stock
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <button class="card-button">
+                                            Agrega más caracteristicas a su plan
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
