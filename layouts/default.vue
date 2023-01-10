@@ -24,13 +24,13 @@ useHead({
         },
         {
             rel:"stylesheet",
-            href:"/assets/fonts/san-serif-pro.css"
-        },
-        {
-            rel:"stylesheet",
             href:"/assets/fonts/MWF-MDL2.css"
         }
-        
+        ,
+        {
+            rel:"stylesheet",
+            href:"/assets/fonts/MWF-FLUENT-ICONS.css"
+        }
         
     ]
 })
