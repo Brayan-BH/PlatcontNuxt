@@ -93,8 +93,10 @@
                         </div>
                     </div>
                     <!-- tabs -->
+
+                    <!-- <ModulosView/> -->
+
                     <div class="tabs">
-                        <!-- Dropdawn -->
                         <h2>Mantente conectado y completa tareas con Platcont</h2>
                         <div class="container-tabs">
                             <div class="dropdawn-container">
@@ -118,7 +120,6 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
-                            <!-- Contabilidad -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(2)">
                                     <i class="material-icons">
@@ -139,7 +140,6 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
-                            <!-- Recursos Humanos -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(3)">
                                     <i class="material-icons">
@@ -160,7 +160,6 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
-                            <!-- Inventario -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(4)">
                                     <i class="material-icons">
@@ -181,7 +180,6 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
-                            <!-- Taxi -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(5)">
                                     <i class="material-icons">
@@ -202,7 +200,6 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
-                            <!-- Transporte -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(6)">
                                     <i class="material-icons">
@@ -223,7 +220,6 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
-                            <!-- Costos -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(7)">
                                     <i class="material-icons">
@@ -246,7 +242,6 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
-                            <!-- Activos fijos -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(8)">
                                     <i class="material-icons">
@@ -269,7 +264,6 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
-                            <!-- Caja -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(9)">
                                     <i class="material-icons">
@@ -292,7 +286,6 @@
                                     <img src="/img/platcont-view.png">
                                 </div>
                             </div>
-                            <!-- Financiera -->
                             <div class="dropdawn-container">
                                 <button class="button-clasic-white" type="button" role="button" @click="tabClick(10)">
                                     <i class="material-icons">
@@ -328,7 +321,7 @@
                                 colaborar con tu equipo, hay un plan de Microsoft 365 que satisface tus necesidades.
                             </p>
                         </div>
-                        <precios-view/>
+                        <PreciosView/>
                     </div>
 
                 </div>
