@@ -101,7 +101,7 @@
                         <div class="container-tabs">
                             <div class="dropdawn-container">
                                 <div :class="[(interaction.tab == 1) ? 'show' : 'hide']">
-                                    <button class="button-clasic-white" type="button" role="button"
+                                    <button class="btn" type="button" role="button"
                                         @click="tabClick(1)">
                                         <i class="material-icons">
                                             account_balance
@@ -121,7 +121,7 @@
                                 </div>
                             </div>
                             <div class="dropdawn-container">
-                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(2)">
+                                <button class="btn" type="button" role="button" @click="tabClick(2)">
                                     <i class="material-icons">
                                         account_balance_wallet
                                     </i>
@@ -141,7 +141,7 @@
                                 </div>
                             </div>
                             <div class="dropdawn-container">
-                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(3)">
+                                <button class="btn" type="button" role="button" @click="tabClick(3)">
                                     <i class="material-icons">
                                         admin_panel_settings
                                     </i>
@@ -161,7 +161,7 @@
                                 </div>
                             </div>
                             <div class="dropdawn-container">
-                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(4)">
+                                <button class="btn" type="button" role="button" @click="tabClick(4)">
                                     <i class="material-icons">
                                         inventory
                                     </i>
@@ -181,7 +181,7 @@
                                 </div>
                             </div>
                             <div class="dropdawn-container">
-                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(5)">
+                                <button class="btn" type="button" role="button" @click="tabClick(5)">
                                     <i class="material-icons">
                                         local_taxi
                                     </i>
@@ -201,7 +201,7 @@
                                 </div>
                             </div>
                             <div class="dropdawn-container">
-                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(6)">
+                                <button class="btn" type="button" role="button" @click="tabClick(6)">
                                     <i class="material-icons">
                                         directions_car
                                     </i>
@@ -221,7 +221,7 @@
                                 </div>
                             </div>
                             <div class="dropdawn-container">
-                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(7)">
+                                <button class="btn" type="button" role="button" @click="tabClick(7)">
                                     <i class="material-icons">
                                         payments
                                     </i>
@@ -243,7 +243,7 @@
                                 </div>
                             </div>
                             <div class="dropdawn-container">
-                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(8)">
+                                <button class="btn" type="button" role="button" @click="tabClick(8)">
                                     <i class="material-icons">
                                         monetization_on
                                     </i>
@@ -265,7 +265,7 @@
                                 </div>
                             </div>
                             <div class="dropdawn-container">
-                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(9)">
+                                <button class="btn" type="button" role="button" @click="tabClick(9)">
                                     <i class="material-icons">
                                         point_of_sale
                                     </i>
@@ -287,7 +287,7 @@
                                 </div>
                             </div>
                             <div class="dropdawn-container">
-                                <button class="button-clasic-white" type="button" role="button" @click="tabClick(10)">
+                                <button class="btn" type="button" role="button" @click="tabClick(10)">
                                     <i class="material-icons">
                                         credit_score
                                     </i>
