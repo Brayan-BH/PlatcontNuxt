@@ -15,17 +15,77 @@
                             <div :class="[(interaction.collapse == 1) ? 'collapse-show' : 'collapse-hide']">
                                 <div class="items__center">
                                     <p>Mantente al día con un plan para ti y para tu familia.</p>
+                                    <div class="center__price">
+                                        <span>S./</span>
+                                        <span class="size-1">150</span>
+                                        <span>/mes</span>
+                                    </div>
+                                    <!-- Modulos -->
+                                    <div class="items-modulos">
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox"> <i class="material-icons">
+                                                    account_balance
+                                                </i>
+                                                Financiera
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox">
+                                                <i class="material-icons">
+                                                    point_of_sale
+                                                </i>
+                                                Caja
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox"> <i class="material-icons">
+                                                    apartment
+                                                </i>
+                                                Multisucursal
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox"> <i class="material-icons">
+                                                    account_balance_wallet
+                                                </i>
+                                                Contabilidad
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox">
+                                                <i class="material-icons">
+                                                    inventory
+                                                </i>
+                                                Stock
+                                            </label>
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="items__link__group">
-                                <a class="btn orange"
-                                    href="https://www.microsoft.com/es/microsoft-365/explore-microsoft-365-for-home">
-                                    Más información
-                                </a>
-                                <a class="btn__link"
+                                <nuxt-link class="btn orange"
+                                    to="/modulos">
+                                    Más modulos
+                                </nuxt-link>
+                                <nuxt-link class="btn__link"
                                     href="https://www.microsoft.com/es/microsoft-365/buy/compare-all-microsoft-365-products?tab=1">
-                                    Ve los planes personales y familiares
-                                </a>
+                                    Ve los planes de pequeña empresa
+                                </nuxt-link>
                                 <!--button/cta disclaimer-->
                             </div>
                         </div>
@@ -44,19 +104,81 @@
                             </p>
                             <div :class="[(interaction.collapse == 2) ? 'collapse-show' : 'collapse-hide']">
                                 <div class="items__center">
-                                    <p>Permite que tus empleados con herramientas colaboren de forma segura y
-                                        trabaja desde cualquier lugar.</p>
+                                    <p>
+                                        Permite que tus empleados con herramientas colaboren de forma segura y trabaja
+                                        desde cualquier lugar.
+                                    </p>
+                                    <div class="center__price">
+                                        <span>S./</span>
+                                        <span class="size-1">250</span>
+                                        <span>/mes</span>
+                                    </div>
+                                    <!-- Modulos -->
+                                    <div class="items-modulos">
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox"> <i class="material-icons">
+                                                    account_balance
+                                                </i>
+                                                Financiera
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox">
+                                                <i class="material-icons">
+                                                    point_of_sale
+                                                </i>
+                                                Caja
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox"> <i class="material-icons">
+                                                    apartment
+                                                </i>
+                                                Multisucursal M ax 3  
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox"> <i class="material-icons">
+                                                    account_balance_wallet
+                                                </i>
+                                                Contabilidad
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox">
+                                                <i class="material-icons">
+                                                    inventory
+                                                </i>
+                                                Stock
+                                            </label>
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="items__link__group">
-                                <a class="btn blue"
-                                    href="https://www.microsoft.com/es/microsoft-365/explore-microsoft-365-for-home">
-                                    Más información
-                                </a>
-                                <a class="btn__link"
+                                <nuxt-link class="btn blue"
+                                    to="/modulos">
+                                    Más modulos
+                                </nuxt-link>
+                                <nuxt-link class="btn__link"
                                     href="https://www.microsoft.com/es/microsoft-365/buy/compare-all-microsoft-365-products?tab=1">
-                                    Ve los planes personales y familiares
-                                </a>
+                                    Ve los planes de mediana empresa
+                                </nuxt-link>
                                 <!--button/cta disclaimer-->
                             </div>
                         </div>
@@ -75,19 +197,81 @@
                             </p>
                             <div :class="[(interaction.collapse == 3) ? 'collapse-show' : 'collapse-hide']">
                                 <div class="items__center">
-                                    <p>Permite que tus empleados con herramientas colaboren de forma segura y
-                                        trabaja desde cualquier lugar.</p>
+                                    <p>
+                                        Permite que tus empleados con herramientas colaboren de forma segura y trabaja
+                                        desde cualquier lugar.
+                                    </p>
+                                    <div class="center__price">
+                                        <span>S./</span>
+                                        <span class="size-1">650</span>
+                                        <span>/mes</span>
+                                    </div>
+                                    <!-- Modulos -->
+                                    <div class="items-modulos">
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox"> <i class="material-icons">
+                                                    account_balance
+                                                </i>
+                                                Financiera
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox">
+                                                <i class="material-icons">
+                                                    point_of_sale
+                                                </i>
+                                                Caja
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox"> <i class="material-icons">
+                                                    apartment
+                                                </i>
+                                                Multi Sucursal Ilimitado
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox"> <i class="material-icons">
+                                                    account_balance_wallet
+                                                </i>
+                                                Contabilidad
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label>
+                                                <input class="check-box" type="checkbox" id="cbox1"
+                                                    value="first_checkbox">
+                                                <i class="material-icons">
+                                                    inventory
+                                                </i>
+                                                Stock
+                                            </label>
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="items__link__group">
-                                <a class="btn green"
-                                    href="https://www.microsoft.com/es/microsoft-365/explore-microsoft-365-for-home">
-                                    Más información
-                                </a>
-                                <a class="btn__link"
+                                <nuxt-link class="btn green"
+                                    to="/modulos">
+                                    Más modulos
+                                </nuxt-link>
+                                <nuxt-link class="btn__link cta"
                                     href="https://www.microsoft.com/es/microsoft-365/buy/compare-all-microsoft-365-products?tab=1">
-                                    Ve los planes personales y familiares
-                                </a>
+                                    Ve los planes de grande empresa
+                                </nuxt-link>
                                 <!--button/cta disclaimer-->
                             </div>
                         </div>
@@ -107,7 +291,7 @@ export default {
     mounted() {
 
     },
-    data(){
+    data() {
         return {
             interaction: {
                 collapse: 0

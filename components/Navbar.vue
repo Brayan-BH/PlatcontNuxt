@@ -111,6 +111,9 @@
                             <nuxt-link to="/precios" class="li__text">Precios</nuxt-link>
                         </li>
                         <li class="ul__li">
+                            <nuxt-link to="/modulos" class="li__text">Modulos</nuxt-link>
+                        </li>
+                        <li class="ul__li">
                             <nuxt-link to="/contactanos" class="li__text">Contáctanos</nuxt-link>
                         </li>
                         <li class="ul__li">
