@@ -1,3 +1,3 @@
 <template>
-    <h1>Acerca de Nosotros</h1>
+    <Contactanos />
 </template>

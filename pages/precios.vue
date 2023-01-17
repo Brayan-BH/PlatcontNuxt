@@ -1,3 +1,3 @@
 <template>
-    <h1>Precios</h1>
+    <PreciosView />
 </template>
