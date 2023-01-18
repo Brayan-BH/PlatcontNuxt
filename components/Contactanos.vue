@@ -2,33 +2,42 @@
     <div class="container-contact">
         <div class="text-center">
             <h2>
-                Contacta a platcont
+                Nuestras redes Sociales
             </h2>
             <p>
-                No dudes en comunicar te con nosotros, haznos llegar tus dudas y con gusto te ayudamos.
+                Encuentranos en:
             </p>
-        </div>
-        <div class="content-items">
-            <div class="">
-                <img width="40px" src="/img/icons/phone.png" alt="phone">
-                <h5 class="font-weight-bold">Llámanos</h5>
-                <a href="tel://924-700-200" class="text-decoration-underline">924-700-200</a>
-            </div>
-            <div class="">
-                <img width="40px" src="/img/icons/mail.png" alt="mail">
-                <h5 class="font-weight-bold">Correo electrónico</h5>
-                <a href="mailto:platcont@hotmail.com" class="text-decoration-underline">platcont@hotmail.com</a>
-            </div>
-            <div class="">
-                <img width="40px" src="/img/icons/facebook_messenger.png" alt="Facebook Messenger" class="mb-2">
-                <h5 class="font-weight-bold">Facebook Messenger</h5>
-                <a href="https://www.facebook.com" target="_blank" class="text-decoration-underline">Escríbenos</a>
-            </div>
-            <div class="">
-                <img width="40px" src="/img/icons/whatsapp.png" alt="Whatsapp" class="mb-2">
-                <h5 class="font-weight-bold">Whatsapp</h5>
-                <a href="https://api.whatsapp.com/send?phone=51924700200" target="_blank"
-                    class="text-decoration-underline">Escríbenos</a>
+            <div class="content-items">
+                <!-- <div class="social">
+                    <nuxt-link to="tel://924-700-200" target=" _blank">
+                        <img src="/img/icons/phone.png" alt="facebook" width="50">
+                    </nuxt-link>
+                    <h5 class="font-weight-bold">Telefono</h5>
+                </div> -->
+                <div class="social">
+                    <nuxt-link to="https://twitter.com/?lang=es" target=" _blank">
+                        <img src="/img/icons/twitter.png" alt="facebook" width="50">
+                    </nuxt-link>
+                    <h5 class="font-weight-bold">twitter</h5>
+                </div>
+                <div class="social">
+                    <nuxt-link to="https://www.youtube.com" target=" _blank">
+                        <img src="/img/icons/youtube.png" alt="facebook" width="50">
+                    </nuxt-link>
+                    <h5 class="font-weight-bold">youtube</h5>
+                </div>
+                <div class="social">
+                    <nuxt-link to="https://www.facebook.com" target=" _blank">
+                        <img src="/img/icons/facebook_messenger.png" alt="facebook" width="50">
+                    </nuxt-link>
+                    <h5 class="font-weight-bold">Facebook</h5>
+                </div>
+                <div class="social column-2">
+                    <nuxt-link to="https://api.whatsapp.com/send?phone=51924700200" target=" _blank">
+                        <img src="/img/icons/whatsapp.png" alt="facebook" width="50">
+                    </nuxt-link>
+                    <h5 class="font-weight-bold">Whatsapp</h5>
+                </div>
             </div>
         </div>
     </div>

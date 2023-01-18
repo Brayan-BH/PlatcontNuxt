@@ -33,6 +33,9 @@
                             <nuxt-link to="/contactanos" class="li__text">Contáctanos</nuxt-link>
                         </li>
                         <li class="ul__li">
+                            <nuxt-link to="/nosotros" class="li__text">Nosotros</nuxt-link>
+                        </li>
+                        <li class="ul__li">
                             <nuxt-link to="/login" class="li__text">Mi cuenta</nuxt-link>
                         </li>
                         <li class="ul__li whats_platcont">
