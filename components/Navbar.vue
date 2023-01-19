@@ -120,7 +120,7 @@
                         <div class="action__control">
                             <div class="control__container">
                                 <div class="container__text">
-                                    Regístrate ahora
+                                    <nuxt-link to="/signup" class="li__text">Registrate Ahora</nuxt-link>
                                 </div>
                                 <div class="container__icon">
                                     <i class="material-icons">how_to_reg</i>

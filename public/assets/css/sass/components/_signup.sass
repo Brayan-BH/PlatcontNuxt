@@ -1,4 +1,4 @@
-.container-login
+.container-register
     display: flex
     justify-content: center
     align-items: center
@@ -10,15 +10,15 @@
     place-content: center
     align-items: center
     margin: auto
-    margin-top: 8%
-    height: 460px
-    .form-container
+    margin-top: 5%
+    height: 510px
+    .form-register
         padding: 48px 40px 36px
         max-width: 720px
         width: 100%
         margin-right: auto
         margin-left: auto
-    .head
+    .head-register
         display: flex
         justify-content: center
         align-items: center
@@ -32,11 +32,11 @@
             width: 80px
             display: block
             height: 50px
-    .body
+    .body-register
         width: 100%
         max-width: 100%
         margin-top: 1.5rem
-.inputbox
+.item
     position: relative
     width: 100%
     & input
@@ -60,8 +60,8 @@
         color: rgba(255, 255, 255, 0.7)
         text-transform: uppercase
         transition: 0.5s
-.inputbox input:valid ~ span,
-.inputbox input:focus ~ span
+.item input:valid ~ span,
+.item input:focus ~ span
     color: #75e44f
     transform: translateX(10px) translateY(-7px)
     font-size: 0.65em
@@ -70,19 +70,18 @@
     border-left: 1px solid #75e44f
     border-right: 1px solid #75e44f
     letter-spacing: 0.2em
-
-.inputbox:nth-child(2) input:valid ~ span,
-.inputbox:nth-child(2) input:focus ~ span
-    background: #75e44f
-    color: rgb(50, 62, 85)
-    border-radius: 2px
-.inputbox input:valid,
-.inputbox input:focus
+// .item:nth-child(2) input:valid ~ span,
+// .item:nth-child(2) input:focus ~ span
+//     background: #75e44f
+//     color: rgb(50, 62, 85)
+//     border-radius: 2px
+.item input:valid,
+.item input:focus
     border: 1px solid #75e44f
 .d-grid
-    display: grid
-    grid-template-columns: 1fr 1fr
-    gap: 1rem
+    display: felx
+    justify-content: center
+    align-items: center
 .btn-register
     border-color: #43be1e
     background-color: #43be1e
