@@ -8,12 +8,6 @@
                 Encuentranos en:
             </p>
             <div class="content-items">
-                <!-- <div class="social">
-                    <nuxt-link to="tel://924-700-200" target=" _blank">
-                        <img src="/img/icons/phone.png" alt="facebook" width="50">
-                    </nuxt-link>
-                    <h5 class="font-weight-bold">Telefono</h5>
-                </div> -->
                 <div class="social">
                     <nuxt-link to="https://twitter.com/?lang=es" target=" _blank">
                         <img src="/img/icons/twitter.png" alt="facebook" width="50">

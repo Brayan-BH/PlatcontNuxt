@@ -32,12 +32,12 @@
                         <li class="ul__li">
                             <nuxt-link to="/contactanos" class="li__text">Contáctanos</nuxt-link>
                         </li>
-                        <li class="ul__li">
+                        <!-- <li class="ul__li">
                             <nuxt-link to="/nosotros" class="li__text">Nosotros</nuxt-link>
-                        </li>
-                        <li class="ul__li">
+                        </li> -->
+                        <!-- <li class="ul__li">
                             <nuxt-link to="/login" class="li__text">Mi cuenta</nuxt-link>
-                        </li>
+                        </li> -->
                         <li class="ul__li whats_platcont">
                             <nuxt-link to="/platcont" class="li__text">¿Por qué Platcont?</nuxt-link>
                         </li>
@@ -109,7 +109,9 @@
                         </div>
                         <div class="action__control">
                             <div class="control__container">
-                                <div class="container__text cl-session">Iniciar sesión</div>
+                                <div class="container__text cl-session">
+                                    <nuxt-link to="/login" class="li__text">Inicar Sesión</nuxt-link>
+                                </div>
                                 <div class="container__icon">
                                     <i class="material-icons">login</i>
                                 </div>
@@ -117,7 +119,9 @@
                         </div>
                         <div class="action__control">
                             <div class="control__container">
-                                <div class="container__text">Regístrate ahora</div>
+                                <div class="container__text">
+                                    Regístrate ahora
+                                </div>
                                 <div class="container__icon">
                                     <i class="material-icons">how_to_reg</i>
                                 </div>

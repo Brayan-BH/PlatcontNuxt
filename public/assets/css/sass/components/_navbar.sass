@@ -12,7 +12,6 @@
 		z-index: 502
 		background: #fff
 		color: #000
-		padding: 0 2px
 		padding: 0 5%
 		.container__item
 			display: flex
@@ -209,6 +208,11 @@
 								font-size: 13px
 								padding-left: 12px
 								padding-right: 4px
+								a:link, a:visited,  a:hover, a:active
+									text-decoration: none
+									box-shadow: none
+									color: #111
+									
 							.container__icon
 								margin-top: 2px
 
@@ -223,26 +227,29 @@
 		display: none
 
 @media screen and (max-width: 750px)
-	.header-page .head-container .container__item
-		.item__button_menu
-			display: block
-		.item__logo
-			flex: 1 1 auto
-		.item__div
-			display: none
-		.item__menu
-			display: none
-			position: absolute
-			width: calc( 100% - 4px )
-			height: calc( 100% - 54px )
-			top: 54px
-			z-index: 1
-			&.open
-				display: unset
-			.menu_ul
-				.ul__li
+	.header-page
+		.head-container
+			padding: 0
+			.container__item
+				.item__button_menu
 					display: block
-				.whats_platcont
-					display: block
-		.item__action .action-container .action__control .control__container .cl-session
-			display: unset
+				.item__logo
+					flex: 1 1 auto
+				.item__div
+					display: none
+				.item__menu
+					display: none
+					position: absolute
+					width: calc( 101% - 4px )
+					height: calc( 100% - 54px )
+					top: 54px
+					z-index: 1
+					&.open
+						display: unset
+					.menu_ul
+						.ul__li
+							display: block
+						.whats_platcont
+							display: block
+				.item__action .action-container .action__control .control__container .cl-session
+					display: unset

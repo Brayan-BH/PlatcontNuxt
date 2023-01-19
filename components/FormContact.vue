@@ -40,13 +40,24 @@
         </div>
         <!-- end form -->
         <div class="contact-message">
-            <nuxt-link to="https://api.whatsapp.com/send?phone=51924700200" target=" _blank">
-                <img src="/img/icons/whatsapp.png" alt="whatsapp" width="50">
-            </nuxt-link>
-            <p class="text-muted">
-                Escribeme al whatsapp es más rapido
-            </p>
-            <div>+51 924700200</div>
+            <div class="social">
+                <nuxt-link to="tel://924-700-200" target=" _blank">
+                    <img src="/img/icons/phone.png" alt="facebook" width="50">
+                </nuxt-link>
+                <h5 class="font-weight-bold">Telefono +51 924700200</h5>
+                <nuxt-link to="tel://924-700-200" target=" _blank">
+                    <img src="/img/icons/mail.png" alt="mail" width="50">
+                </nuxt-link>
+                <h5 class="font-weight-bold">platcont@hotmail.com</h5>
+                <nuxt-link to="https://api.whatsapp.com/send?phone=51924700200" target=" _blank">
+                    <img src="/img/icons/whatsapp.png" alt="whatsapp" width="50">
+                </nuxt-link>
+                <p class="text-muted">
+                    Escribeme al whatsapp es más rapido
+                </p>
+                <div>+51 924700200</div>
+            </div>
+
         </div>
     </div>
 </template>
