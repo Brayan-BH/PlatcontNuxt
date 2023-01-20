@@ -6,7 +6,7 @@
                     <h2>Registrate ahora</h2>
                     <img class="logo__img" src="/img/logo.png" alt="logo">
                 </div>
-                <form >
+                <form>
                     <div class="body-register">
                         <div class="item">
                             <input type="text" required>
@@ -30,10 +30,13 @@
                         </div>
                     </div>
                 </form>
-                <nuxt-link href="" to="#">Terminos y Condiciones</nuxt-link>
+                <nuxt-link to="#">Terminos y Condiciones</nuxt-link>
                 <div class="d-grid">
                     <button class="btn-ingresar" id="button-enviar">
                         Ingresar
+                    </button>
+                    <button class="btn-ingresar" id="button-enviar">
+                        <nuxt-link to="/login">Regresar</nuxt-link>
                     </button>
                 </div>
             </div>

@@ -18,11 +18,11 @@
                         </div>
                     </div>
                 </form>
-                <nuxt-link href="" to="#">¿Has olvidado tu correo electrónico?</nuxt-link>
+                <nuxt-link to="#">¿Has olvidado tu correo electrónico?</nuxt-link>
             </div>
             <div class="d-grid">
                 <button class="btn-register" id="button-enviar">
-                    <nuxt-link href="" to="/signup" target="_blank">Crear Cuenta</nuxt-link>
+                    <nuxt-link to="/signup">Crear Cuenta</nuxt-link>
                 </button>
                 <button class="btn-ingresar" id="button-enviar">
                     Ingresar
