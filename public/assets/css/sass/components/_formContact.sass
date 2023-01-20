@@ -28,9 +28,8 @@
             position: relative
             margin-bottom: 1rem
             > label
-                display: inline-block
                 position: absolute
-                top: -20
+                top: 0
                 left: 0
                 height: 100%
                 padding: 1rem 0.75rem
@@ -38,7 +37,11 @@
                 border: 1px solid transparent
                 transform-origin: 0 0
                 transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out
-            & .form-control
+                font-size: 0.8em
+                letter-spacing: 0.1em
+                color: rgba(15, 15, 15, 0.7)
+                transition: 0.5s
+            .form-control
                 height: calc(3.5rem + 2px)
                 line-height: 1.25
                 display: block
@@ -56,19 +59,39 @@
                 appearance: none
                 border-radius: 0.25rem
                 transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+                &::placeholder
+                    color: transparent
                 &:focus
+                    color: #212529
                     padding-top: 1.625rem
                     padding-bottom: 0.625rem
-                    color: #212529
                     background-color: #fff
                     outline: 0
+                    line-height: 2
                     box-shadow: 0 0 0 0.25rem #4fca29
+                    ~label
+                        padding-top: 1.625rem
+                        padding-bottom: 0.625rem
+                        opacity: 0.65
+                        transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem)
+                &:not(:placeholder-shown)
+                    opacity: 0.65
+                    padding-top: 1.625rem
+                    padding-bottom: 0.625rem
                     ~ label
                         opacity: 0.65
+                        padding-top: 1.625rem
+                        padding-bottom: 0.625rem
                         transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem)
             .textarea
                 width: 100%
                 height: 10rem
+                > label
+                    font-size: 1rem
+.d-grid
+    display: flex
+    justify-content: center
+    align-items: center
 .contact-message
     text-align: center
     margin-top: 2rem

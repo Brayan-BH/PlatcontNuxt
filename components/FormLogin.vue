@@ -6,16 +6,18 @@
                     <h2>Iniciar Sesión</h2>
                     <img class="logo__img" src="/img/logo.png" alt="logo">
                 </div>
-                <div class="body">
-                    <div class="inputbox">
-                        <input type="mail" required>
-                        <span>Coreo Electronico</span>
+                <form>
+                    <div class="body">
+                        <div class="inputbox">
+                            <input type="mail" required>
+                            <span>Coreo Electronico</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="password" required>
+                            <span>Contraseña</span>
+                        </div>
                     </div>
-                    <div class="inputbox">
-                        <input type="password" required>
-                        <span>Contraseña</span>
-                    </div>
-                </div>
+                </form>
                 <nuxt-link href="" to="#">¿Has olvidado tu correo electrónico?</nuxt-link>
             </div>
             <div class="d-grid">

@@ -13,27 +13,28 @@
                 <form>
                     <!-- Name input-->
                     <div class="form-floating">
-                        <input class="form-control" name="name" type="text">
+                        <input class="form-control" name="name" type="text" placeholder="Nombres">
                         <label for="name">Nombre</label>
                     </div>
                     <!-- Email address input-->
                     <div class="form-floating">
-                        <input class="form-control" name="email" type="email">
+                        <input class="form-control" name="email" type="email" placeholder="Correo">
                         <label for="email">Correo</label>
                     </div>
                     <!-- Phone number input-->
                     <div class="form-floating">
-                        <input class="form-control" name="telefono" type="tel">
+                        <input class="form-control" name="telefono" type="tel" placeholder="Telefono">
                         <label for="email">Teléfono</label>
                     </div>
                     <!-- Message input-->
                     <div class="form-floating">
-                        <textarea class="form-control textarea" name="asunto" type="text">
-                        </textarea>
+                        <textarea class="form-control textarea" name="asunto" type="text" placeholder="Escribe algo aqui tu comentario...."></textarea>
                         <label for="message">Comentario</label>
                     </div>
                     <div class="d-grid">
-                        <button class="button-green" id="button-enviar">Enviar</button>
+                        <div class="button">
+                            <button class="button-green" id="button-enviar">Enviar</button>
+                        </div>
                     </div>
                 </form>
             </div>
