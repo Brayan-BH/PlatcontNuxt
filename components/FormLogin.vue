@@ -26,7 +26,8 @@
                                     </NuxtLink>
                                 </button>
                                 <button class="btn-ingresar">
-                                    Ingresar
+                                    <NuxtLink to="#">Ingresar
+                                    </NuxtLink>
                                 </button>
                             </div>
 

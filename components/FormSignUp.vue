@@ -1,45 +1,60 @@
 <template>
     <main>
         <div class="container-register">
-            <div class="form-register">
-                <div class="head-register">
-                    <h2>Registrate ahora</h2>
-                    <img class="logo__img" src="/img/logo.png" alt="logo">
-                </div>
-                <form>
-                    <div class="body-register">
-                        <div class="item">
-                            <input type="text" required>
-                            <span>Nombres y apellidos</span>
+            <div class="center-register">
+                <h2>Crear cuenta
+                </h2>
+                <!-- <img class="logo__img" src="/img/logo.png" alt="logo"> -->
+                <hr class="divider">
+            </div>
+            <!-- start form -->
+            <div class="body-register">
+                <div class="content-register">
+                    <form>
+                        <!-- Email address input-->
+                        <div class="floating">
+                            <input class="control" name="fullname" type="text" placeholder="Nombres y Apellidos">
+                            <label for="fullname">Nombres y
+                                Apellidos
+                            </label>
                         </div>
-                        <div class="item">
-                            <input type="email" required>
-                            <span>Coreo ELecronico</span>
+                        <!-- Email address input-->
+                        <div class="floating">
+                            <input class="control" name="email" type="email" placeholder="Correo">
+                            <label for="email">Correo Electronico</label>
                         </div>
-                        <div class="item">
-                            <input type="tel" required>
-                            <span>Teléfono</span>
+                        <!-- Email address input-->
+                        <div class="floating">
+                            <input class="control" name="telefono" type="telefono" placeholder="Telefono">
+                            <label for="tel">Teléfono</label>
                         </div>
-                        <div class="item">
-                            <input type="password" required>
-                            <span>Contraseña</span>
+                        <!-- Password -->
+                        <div class="floating">
+                            <input class="control" name="password" type="password" placeholder="password">
+                            <label for="password">Contraseñá</label>
                         </div>
-                        <div class="item">
-                            <input type="tel" required>
-                            <span>Confirmar Contraseña</span>
+                        <!-- Password confirm-->
+                        <div class="floating">
+                            <input class="control" name="password" type="password" placeholder="password">
+                            <label for="password">
+                                Confirmar Contarseña
+                            </label>
                         </div>
-                    </div>
-                </form>
-                <nuxt-link to="#">Terminos y Condiciones</nuxt-link>
-                <div class="d-grid">
-                    <button class="btn-ingresar" id="button-enviar">
-                        Ingresar
-                    </button>
-                    <button class="btn-ingresar" id="button-enviar">
-                        <nuxt-link to="/login">Regresar</nuxt-link>
-                    </button>
+                        <NuxtLink to="#">Terminos y condiciones</NuxtLink>
+                        <div class="d-grid">
+                            <button class="btn-register">
+                                <NuxtLink to="/signup">Crear Cuenta
+                                </NuxtLink>
+                            </button>
+                            <button class="btn-back">
+                                <NuxtLink to="/login">Regresar
+                                </NuxtLink>
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
+            <!-- end form -->
         </div>
     </main>
-</template>
+</template>  

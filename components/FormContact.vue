@@ -34,7 +34,7 @@
                         </div>
                         <div class="d-grid">
                             <div class="button">
-                                <button class="button-green" id="button-enviar">Enviar</button>
+                                <button class="button-green" id="button-send">Enviar</button>
                             </div>
                         </div>
                     </form>
