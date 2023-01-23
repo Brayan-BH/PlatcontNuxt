@@ -1,3 +1,4 @@
 <template>
     <PreciosView />
+    <Footer />
 </template>

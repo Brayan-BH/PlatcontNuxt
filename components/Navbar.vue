@@ -55,13 +55,13 @@
                                             </button>
                                             <ul class="li-container__menu">
                                                 <li class="">
-                                                    <span class="menu__header">Para el hogar</span>
+                                                    <span class="menu__header">Para Pequeñas Empresas</span>
                                                     <ul class="menu__body">
                                                         <li class="body__item">
-                                                            <a>Precios para el hogar</a>
+                                                            <a>Contabilidad</a>
                                                         </li>
                                                         <li class="body__item">
-                                                            <a>Para familias</a>
+                                                            <a></a>
                                                         </li>
                                                         <li class="body__item">
                                                             <a>Para particulares</a>
