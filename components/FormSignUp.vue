@@ -25,7 +25,7 @@
                         </div>
                         <!-- Email address input-->
                         <div class="floating">
-                            <input class="control" name="telefono" type="telefono" placeholder="Telefono">
+                            <input class="control" name="telefono" type="tel" placeholder="Telefono">
                             <label for="tel">Teléfono</label>
                         </div>
                         <!-- Password -->
