@@ -97,10 +97,15 @@
 .container-dashboard
     padding-left: .4%
     margin-top: 3rem
-    .container-cards
-        margin: 0 5%
+    width: 100%
+    min-width: 400px
+    display: grid
+    grid-auto-flow: column dense
     .cards-items
         display: flex
+        gap: 3px
+        flex-direction: row
+        flex-wrap: wrap
         .items
             background: #F3EFE0
             width: 130px
