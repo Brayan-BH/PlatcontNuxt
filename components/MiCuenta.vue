@@ -91,13 +91,13 @@
                         </i>
                         <p class="sub">Items</p>
                     </div>
-                    <!-- <div class="items">
+                    <div class="items">
                         <p class="number">5 </p>
                         <i class="material-icons">
                             settings
                         </i>
                         <p class="sub">Items</p>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
