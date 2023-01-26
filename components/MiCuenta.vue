@@ -59,50 +59,15 @@
                 </div>
             </div>
             <div class="info-3">
-                <div class="container-card">
-                    <div class="header-card">
-                        <p class="header-title before">
-                            <button class="title-btn" type="button" role="button" @click="dropClick(3)">
-                                Cambiar Contraseña
-                                <i class="material-icons">
-                                    key
-                                </i>
-                            </button>
-                        </p>
-                    </div>
-                    <div class="body-card">
-                        <div class="body-content">
-                            <div :class="[(interaction.drop == 3) ? 'drop-show' : 'drop-hide']">
-                                <div>
-                                    <label>Contraseña Actual(*)</label>
-                                    <input class="input-pass" id="show-pass" name="password" type="password"
-                                        placeholder="Contraseña Actual">
-                                    <i class="material-icons" @click="showPass()">
-                                        visibility
-                                    </i>
-                                </div>
-                                <div>
-                                    <label>Contraseña Nueva(*)</label>
-                                    <input class="input-pass" id="show-new-pass" name="password" type="password"
-                                        placeholder="Contraseña Nueva">
-                                    <i class="material-icons" @click="showPass()">
-                                        visibility
-                                    </i>
-                                </div>
-                                <div>
-                                    <label>Repetir Contraseña(*)</label>
-                                    <input class="input-pass" id="show-confirm-pass" name="password" type="password"
-                                        placeholder="Repetir Contraseña">
-                                    <i class="material-icons" @click="showPass()">
-                                        visibility
-                                    </i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-card">
-                        <button class="btn-actualizar">Actualizar Contraseña</button>
-                    </div>
+                <div class="container-button-pass">
+                    <p class="text-title before">
+                        <button class="button-pass" type="button" role="button" @click="dropClick(3)">
+                            Cambiar Contraseña
+                            <i class="material-icons">
+                                key
+                            </i>
+                        </button>
+                    </p>
                 </div>
             </div>
         </div>
@@ -115,7 +80,7 @@
                         <i class="material-icons">
                             settings
                         </i>
-                        <p class="sub">Items</p>
+                        <p class="sub">Cambiar Contraseña</p>
                     </div>
                     <div class="items">
                         <p class="number">2</p>
@@ -138,20 +103,45 @@
                         </i>
                         <p class="sub">Items</p>
                     </div>
-                    <!-- <div class="items">
-                        <p class="number">5</p>
+                    <div class="items column-3">
+                        <p class="number">4</p>
                         <i class="material-icons">
                             settings
                         </i>
                         <p class="sub">Items</p>
-                    </div> -->
-                    <!-- <div class="items">
-                        <p class="number">6</p>
-                        <i class="material-icons">
-                            settings
-                        </i>
-                        <p class="sub">Items</p>
-                    </div> -->
+                    </div>
+                </div>
+                <div :class="[(interaction.drop == 3) ? 'drop-show-section' : 'drop-hide-section']">
+                    <div class="section-show">
+                        <div class="body-section">
+                            <div class="section-items">
+                                <label>Contraseña Actual(*)</label>
+                                <input class="input-pass password1" type="password" placeholder="Contraseña Actual">
+                                <i class="material-icons" @click="showPass1()">
+                                    visibility
+                                </i>
+                            </div>
+                            <div class="section-items">
+                                <label>Contraseña Nueva(*)</label>
+                                <input class="input-pass password2" name="password" type="password"
+                                    placeholder="Contraseña Nueva">
+                                <i class="material-icons" @click="showPass2()"> 
+                                    visibility
+                                </i>
+                            </div>
+                            <div class="section-items">
+                                <label>Repetir Contraseña(*)</label>
+                                <input class="input-pass password3" name="password" type="password"
+                                    placeholder="Repetir Contraseña">
+                                <i class="material-icons" @click="showPass3()">
+                                    visibility
+                                </i>
+                            </div>
+                        </div>
+                        <div class="footer-section">
+                            <button class="btn-footer">Actualizar Contraseña</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -175,27 +165,21 @@ export default {
             if (index == this.interaction.drop) this.interaction.drop = 0
             else this.interaction.drop = index
         },
-        showPass() {
-            let pass = document.getElementById("show-pass");
-            let pass2 = document.getElementById("show-new-pass");
-            let pass3 = document.getElementById("show-confirm-pass");
+        showPass1() {
+            const password1 = document.querySelector(".password1");
+            const type1 = password1.getAttribute("type") === "password" ? "text" : "password";
+            password1.setAttribute("type", type1);
+        },
+        showPass2() {
+            const password2 = document.querySelector(".password2");
+            const type2 = password2.getAttribute("type") === "password" ? "text" : "password";
+            password2.setAttribute("type", type2);
+        },
+        showPass3() {
 
-            if (pass.type == "password") {
-                pass.type = "text";
-            } 
-            else if(pass2.type == "password"){
-                pass2.type = "text";
-            } 
-            else if(pass3.type == "password"){
-                pass3.type = "text";
-            } 
-            else{
-                pass.type = "password";
-                pass2.type = "password";
-                pass3.type = "password";
-            }
-            
-
+            const password3 = document.querySelector(".password3");
+            const type3 = password3.getAttribute("type") === "password" ? "text" : "password";
+            password3.setAttribute("type", type3);
         }
     }
 }
