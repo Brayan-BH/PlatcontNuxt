@@ -58,7 +58,8 @@
                     </div> -->
                 </div>
             </div>
-            <div class="info-3">
+            <!-- Contraseña\ -->
+            <!-- <div class="info-3">
                 <div class="container-button-pass">
                     <p class="text-title before">
                         <button class="button-pass" type="button" role="button" @click="dropClick(3)">
@@ -69,7 +70,7 @@
                         </button>
                     </p>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- Section Dash -->
         <div class="container-dashboard">
@@ -87,7 +88,7 @@
                         <i class="material-icons">
                             settings
                         </i>
-                        <p class="sub">Facturas</p>
+                        <p class="sub">Fechas de Facturación</p>
                     </div>
                     <div class="items" @click="dropClick(3)">
                         <p class="number">3</p>
@@ -96,19 +97,12 @@
                         </i>
                         <p class="sub">Cambiar Contraseña</p>
                     </div>
-                    <div class="items column-3">
+                    <div class="items column-3" @click="dropClick(4)">
                         <p class="number">4</p>
                         <i class="material-icons">
                             settings
                         </i>
-                        <p class="sub">Fechas De Facturación</p>
-                    </div>
-                    <div class="items column-3">
-                        <p class="number">5</p>
-                        <i class="material-icons">
-                            settings
-                        </i>
-                        <p class="sub">Items</p>
+                        <p class="sub">Facturas</p>
                     </div>
                 </div>
                 <!-- Actualizar informacion -->
@@ -199,8 +193,68 @@
                         </div>
                     </div>
                 </div>
-                <!--  -->
+                <!-- Ver Facturas -->
+                <div class="container-table">
+                    <div :class="[(interaction.drop == 4) ? 'drop-show-section' : 'drop-hide-section']">
 
+                        <table class="container">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <h1>Modulos</h1>
+                                    </th>
+                                    <th>
+                                        <h1>Precio</h1>
+                                    </th>
+                                    <th>
+                                        <h1>Total</h1>
+                                    </th>
+                                    <th>
+                                        <h1>Lorem</h1>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Pequeña Empresa</td>
+                                    <td>951</td>
+                                    <td>636</td>
+                                    <td>Pagado</td>
+                                </tr>
+                                <tr>
+                                    <td>Pequeña Empresa</td>
+                                    <td>732</td>
+                                    <td>104</td>
+                                    <td>Pagado</td>
+                                </tr>
+                                <tr>
+                                    <td>Pequeña Empresa</td>
+                                    <td>416</td>
+                                    <td>532</td>
+                                    <td>Pagado</td>
+                                </tr>
+                                <tr>
+                                    <td>Pequeña Empresa</td>
+                                    <td>365</td>
+                                    <td>296</td>
+                                    <td> No Pagado</td>
+                                </tr>
+                                <tr>
+                                    <td>Pequeña Empresa</td>
+                                    <td>200</td>
+                                    <td>413</td>
+                                    <td>No Pagado</td>
+                                </tr>
+                                <tr>
+                                    <td>Pequeña Empresa</td>
+                                    <td>462</td>
+                                    <td>348</td>
+                                    <td>No Pagado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
