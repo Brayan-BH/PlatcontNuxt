@@ -25,9 +25,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="footer-card">
-                        <button class="btn-actualizar">Actualizar</button>
-                    </div>
+                    <!-- <div class="footer-card">
+                        <button class="btn-actualizar" @click="">Actualizar</button>
+                    </div> -->
                 </div>
             </div>
             <div class="info-2">
@@ -53,9 +53,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="footer-card">
+                    <!-- <div class="footer-card">
                         <button class="btn-actualizar">Actualizar</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="info-3">
@@ -78,23 +78,23 @@
                     <div class="items">
                         <p class="number">1</p>
                         <i class="material-icons">
-                            settings
+                            person
                         </i>
-                        <p class="sub">Cambiar Contraseña</p>
+                        <p class="sub">Editar Información</p>
                     </div>
                     <div class="items">
                         <p class="number">2</p>
                         <i class="material-icons">
                             settings
                         </i>
-                        <p class="sub">Items</p>
+                        <p class="sub">Ver </p>
                     </div>
                     <div class="items">
                         <p class="number">3</p>
                         <i class="material-icons">
-                            settings
+                            key
                         </i>
-                        <p class="sub">Items</p>
+                        <p class="sub">Cambiar Contraseña</p>
                     </div>
                     <div class="items column-3">
                         <p class="number">4</p>
@@ -104,14 +104,39 @@
                         <p class="sub">Items</p>
                     </div>
                     <div class="items column-3">
-                        <p class="number">4</p>
+                        <p class="number">5</p>
                         <i class="material-icons">
                             settings
                         </i>
                         <p class="sub">Items</p>
                     </div>
                 </div>
-                <div :class="[(interaction.drop == 3) ? 'drop-show-section' : 'drop-hide-section']">
+                <!-- Actualizar informacion -->
+                <div :class="[(interaction.drop == 1) ? 'drop-show-section' : 'drop-hide-section']">
+                    <div class="section-show">
+                        <div class="body-section">
+                            <div class="section-items">
+                                <label>Nombres y Apellidos</label>
+                                <input class="input-name" type="text" placeholder="Apellidos y Nombres">
+                            </div>
+                            <div class="section-items">
+                                <label>Dirección</label>
+                                <input class="input-direc" name="direccion" type="text"
+                                    placeholder="Dirección Actual">
+                            </div>
+                        </div>
+                        <div class="footer-section">
+                            <button class="btn-footer">
+                                Actualizar
+                                <i class="material-icons" @click="showPass1()">
+                                    edit
+                                </i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Actualizar Informacion 2 -->
+                <div :class="[(interaction.drop == 2) ? 'drop-show-section' : 'drop-hide-section']">
                     <div class="section-show">
                         <div class="body-section">
                             <div class="section-items">
@@ -125,7 +150,7 @@
                                 <label>Contraseña Nueva(*)</label>
                                 <input class="input-pass password2" name="password" type="password"
                                     placeholder="Contraseña Nueva">
-                                <i class="material-icons" @click="showPass2()"> 
+                                <i class="material-icons" @click="showPass2()">
                                     visibility
                                 </i>
                             </div>
@@ -143,6 +168,41 @@
                         </div>
                     </div>
                 </div>
+                <!-- Actualizar contraseña -->
+                <div :class="[(interaction.drop == 3) ? 'drop-show-section' : 'drop-hide-section']">
+                    <div class="section-show">
+                        <div class="body-section">
+                            <div class="section-items">
+                                <label>Contraseña Actual(*)</label>
+                                <input class="input-pass password1" type="password" placeholder="Contraseña Actual">
+                                <i class="material-icons" @click="showPass1()">
+                                    visibility
+                                </i>
+                            </div>
+                            <div class="section-items">
+                                <label>Contraseña Nueva(*)</label>
+                                <input class="input-pass password2" name="password" type="password"
+                                    placeholder="Contraseña Nueva">
+                                <i class="material-icons" @click="showPass2()">
+                                    visibility
+                                </i>
+                            </div>
+                            <div class="section-items">
+                                <label>Repetir Contraseña(*)</label>
+                                <input class="input-pass password3" name="password" type="password"
+                                    placeholder="Repetir Contraseña">
+                                <i class="material-icons" @click="showPass3()">
+                                    visibility
+                                </i>
+                            </div>
+                        </div>
+                        <div class="footer-section">
+                            <button class="btn-footer">Actualizar Contraseña</button>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
             </div>
         </div>
     </div>
