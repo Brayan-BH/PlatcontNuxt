@@ -75,21 +75,21 @@
         <div class="container-dashboard">
             <div class="container-cards">
                 <div class="cards-items">
-                    <div class="items">
+                    <div class="items" @click="dropClick(1)">
                         <p class="number">1</p>
                         <i class="material-icons">
                             person
                         </i>
                         <p class="sub">Editar Información</p>
                     </div>
-                    <div class="items">
+                    <div class="items" @click="dropClick(2)">
                         <p class="number">2</p>
                         <i class="material-icons">
                             settings
                         </i>
-                        <p class="sub">Ver </p>
+                        <p class="sub">Facturas</p>
                     </div>
-                    <div class="items">
+                    <div class="items" @click="dropClick(3)">
                         <p class="number">3</p>
                         <i class="material-icons">
                             key
@@ -101,7 +101,7 @@
                         <i class="material-icons">
                             settings
                         </i>
-                        <p class="sub">Items</p>
+                        <p class="sub">Fechas De Facturación</p>
                     </div>
                     <div class="items column-3">
                         <p class="number">5</p>
@@ -121,15 +121,14 @@
                             </div>
                             <div class="section-items">
                                 <label>Dirección</label>
-                                <input class="input-direc" name="direccion" type="text"
-                                    placeholder="Dirección Actual">
+                                <input class="input-direc" name="direccion" type="text" placeholder="Dirección Actual">
                             </div>
                         </div>
                         <div class="footer-section">
                             <button class="btn-footer">
                                 Actualizar
-                                <i class="material-icons" @click="showPass1()">
-                                    edit
+                                <i class="material-icons">
+                                    change_circle
                                 </i>
                             </button>
                         </div>
@@ -141,30 +140,24 @@
                         <div class="body-section">
                             <div class="section-items">
                                 <label>Contraseña Actual(*)</label>
-                                <input class="input-pass password1" type="password" placeholder="Contraseña Actual">
-                                <i class="material-icons" @click="showPass1()">
-                                    visibility
-                                </i>
+                                <input class="input-pass" type="text" placeholder="Contraseña Actual">
                             </div>
                             <div class="section-items">
                                 <label>Contraseña Nueva(*)</label>
-                                <input class="input-pass password2" name="password" type="password"
-                                    placeholder="Contraseña Nueva">
-                                <i class="material-icons" @click="showPass2()">
-                                    visibility
-                                </i>
+                                <input class="input-pass" name="password" type="text" placeholder="Contraseña Nueva">
                             </div>
                             <div class="section-items">
                                 <label>Repetir Contraseña(*)</label>
-                                <input class="input-pass password3" name="password" type="password"
-                                    placeholder="Repetir Contraseña">
-                                <i class="material-icons" @click="showPass3()">
-                                    visibility
-                                </i>
+                                <input class="input-pass" name="password" type="text" placeholder="Repetir Contraseña">
                             </div>
                         </div>
                         <div class="footer-section">
-                            <button class="btn-footer">Actualizar Contraseña</button>
+                            <button class="btn-footer">
+                                Actualizar
+                                <i class="material-icons">
+                                    change_circle
+                                </i>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -197,7 +190,12 @@
                             </div>
                         </div>
                         <div class="footer-section">
-                            <button class="btn-footer">Actualizar Contraseña</button>
+                            <button class="btn-footer">
+                                Actualizar
+                                <i class="material-icons">
+                                    change_circle
+                                </i>
+                            </button>
                         </div>
                     </div>
                 </div>

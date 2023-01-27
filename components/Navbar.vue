@@ -113,7 +113,7 @@
                                     <nuxt-link to="/login" class="li__text">Inicar Sesión</nuxt-link>
                                 </div>
                                 <div class="container__icon">
-                                    <i class="material-icons">login</i>
+                                    <nuxt-link to="/login" class="material-icons">login</nuxt-link>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                                     <nuxt-link to="/signup" class="li__text">Registrate Ahora</nuxt-link>
                                 </div>
                                 <div class="container__icon">
-                                    <i class="material-icons">how_to_reg</i>
+                                    <nuxt-link to="/signup" class="material-icons">how_to_reg</nuxt-link>
                                 </div>
                             </div>
                         </div>
