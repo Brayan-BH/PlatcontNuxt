@@ -98,14 +98,14 @@
                         <i class="material-icons">
                             key
                         </i>
-                        <p class="sub">Cambiar Contraseña</p>
+                        <p class="sub">Facturas</p>
                     </div>
                     <div class="items column-3" @click="dropClick(4)">
                         <p class="number">4</p>
                         <i class="material-icons">
                             settings
                         </i>
-                        <p class="sub">Facturas</p>
+                        <p class="sub">Cambiar Contraseña</p>
                     </div>
                 </div>
                 <!-- Actualizar informacion -->
@@ -131,7 +131,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Actualizar Informacion 2 -->
+                <!-- Fechas de facturación-->
                 <div :class="[(interaction.drop == 2) ? 'drop-show-section' : 'drop-hide-section']">
                     <div class="container-table">
                         <table>
@@ -175,8 +175,77 @@
                     </div>
                 </div>
             </div>
-            <!-- Actualizar contraseña -->
+            <!-- Ver Facturas -->
             <div :class="[(interaction.drop == 3) ? 'drop-show-section' : 'drop-hide-section']">
+                <div class="container-table">
+                    <table>
+                        <tr>
+                            <th>Detalles</th>
+                            <th>Precio</th>
+                            <th>Importe</th>
+                            <th>total</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Pequeña Empresa</td>
+                            <td>Smith Adam jhonson De la torre</td>
+                            <td>30/09/2021</td>
+                            <td>S/. 250</td>
+                            <td class="pay">
+                                <span class="material-icons">
+                                    check
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pequeña Empresa</td>
+                            <td>Smith Adam jhonson De la torre</td>
+                            <td>30/10/2021</td>
+                            <td>S/. 250</td>
+                            <td class="pay">
+                                <span class="material-icons">
+                                    check
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pequeña Empresa</td>
+                            <td>Smith Adam jhonson De la torre</td>
+                            <td>30/11/2021</td>
+                            <td>S/. 250</td>
+                            <td class="pay">
+                                <span class="material-icons">
+                                    check
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pequeña Empresa</td>
+                            <td>Smith Adam jhonson De la torre</td>
+                            <td>30/12/2021</td>
+                            <td>S/. 250</td>
+                            <td class="not-pay">
+                                <span class="material-icons">
+                                    clear
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pequeña Empresa</td>
+                            <td>Smith Adam jhonson De la torre</td>
+                            <td>30/01/2022</td>
+                            <td>S/. 250</td>
+                            <td class="not-pay">
+                                <span class="material-icons">
+                                    clear
+                                </span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- Actualizar contraseña -->
+            <div :class="[(interaction.drop == 4) ? 'drop-show-section' : 'drop-hide-section']">
                 <div class="section-show">
                     <div class="body-section">
                         <div class="section-items">
@@ -211,55 +280,6 @@
                             </i>
                         </button>
                     </div>
-                </div>
-            </div>
-            <!-- Ver Facturas -->
-            <div :class="[(interaction.drop == 4) ? 'drop-show-section' : 'drop-hide-section']">
-                <div class="container-table">
-                    <table>
-                        <tr>
-                            <th>Detalles</th>
-                            <th>Precio</th>
-                            <th>Importe</th>
-                            <th>total</th>
-                            <th></th>
-                        </tr>
-                        <tr>
-                            <td>Pequeña Empresa</td>
-                            <td>Smith Adam jhonson De la torre</td>
-                            <td>30/09/2021</td>
-                            <td>S/. 250</td>
-                            <td class="pay">Pagado</td>
-                        </tr>
-                        <tr>
-                            <td>Pequeña Empresa</td>
-                            <td>Smith Adam jhonson De la torre</td>
-                            <td>30/10/2021</td>
-                            <td>S/. 250</td>
-                            <td class="pay">Pagado</td>
-                        </tr>
-                        <tr>
-                            <td>Pequeña Empresa</td>
-                            <td>Smith Adam jhonson De la torre</td>
-                            <td>30/11/2021</td>
-                            <td>S/. 250</td>
-                            <td class="pay">Pagado</td>
-                        </tr>
-                        <tr>
-                            <td>Pequeña Empresa</td>
-                            <td>Smith Adam jhonson De la torre</td>
-                            <td>30/12/2021</td>
-                            <td>S/. 250</td>
-                            <td class="not-pay">No pagado</td>
-                        </tr>
-                        <tr>
-                            <td>Pequeña Empresa</td>
-                            <td>Smith Adam jhonson De la torre</td>
-                            <td>30/01/2022</td>
-                            <td>S/. 250</td>
-                            <td class="not-pay">No pagado</td>
-                        </tr>
-                    </table>
                 </div>
             </div>
         </div>
