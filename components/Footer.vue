@@ -10,7 +10,7 @@
                             <nuxt-link to="/" class="text-light">Inicio</nuxt-link>
                         </li>
                         <li class="list">
-                            <nuxt-link to="/platcont" class="text-light">¿Por qué Platcont?</nuxt-link>
+                            <nuxt-link to="/whyplatcont" class="text-light">¿Por qué Platcont?</nuxt-link>
                         </li>
                         <li class="list">
                             <nuxt-link to="/precios" class="text-light">Precios</nuxt-link>

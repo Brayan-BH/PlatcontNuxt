@@ -1,0 +1,4 @@
+<template>
+    <WhatsPlatcontView />
+    <Caracteristicas />
+</template>
