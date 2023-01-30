@@ -132,6 +132,25 @@
                 font-weight: 600
                 color: #434242
                 margin-bottom: 1.2rem
+            .sub-title
+                font-size: 1rem
+                font-weight: 600
+                color: #434242
+                margin-bottom: 1.2rem
+            .paragraph
+                font-size: .9rem
+                font-weight: 600
+                color: #434242
+                margin-bottom: 1.2rem
+            .importe
+                display: flex
+                justify-content: center
+                align-items: center
+                margin-top: 1rem
+                color: #434242
+                .display-1
+                    font-size: 3rem
+                    color: #43be1e
         .drop-show
             padding: 5%
         .drop-hide
@@ -164,7 +183,7 @@
 .container-dashboard
     margin-top: 3rem
     width: 100%
-    display: grid
+    // display: grid
     grid-auto-flow: column dense
     grid-column: 2 span
     .cards-items
@@ -182,6 +201,10 @@
             display: grid
             grid-template-columns: 1fr 1fr
             cursor: pointer
+            border-top-right-radius: 20px
+            border-top-left-radius: 20px
+            &:hover
+                transform: skewY(10deg)
             .column-3
                 grid-column: 2
             .number

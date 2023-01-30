@@ -35,9 +35,9 @@
                     <div class="header-card">
                         <p class="header-title before">
                             <button class="title-btn" type="button" role="button" @click="dropClick(2)">
-                                Su Información
+                                Fechas de facturación
                                 <i class="material-icons">
-                                    person
+                                    fact_check
                                 </i>
                             </button>
                         </p>
@@ -45,11 +45,14 @@
                     <div class="body-card">
                         <div class="body-content">
                             <div :class="[(interaction.drop == 2) ? 'drop-show' : 'drop-hide']">
-                                <p class="main-title">Basurto Huamán Brayan</p>
-                                <p>Av. Ocopilla 660
-                                </p>
-                                <p>huancayo, junin, 1800</p>
-                                <p>Perú</p>
+                                <p class="main-title">Smith Adam jhonson De la torre</p>
+                                <p class="sub-title">Pequeña Empresa</p>
+                                <p class="sub-title">Mediana Empresa</p>
+                                <div class="importe">
+                                    <span>S./</span>
+                                    <span class="display-1">1000</span>
+                                    <span>total</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -107,7 +110,7 @@
                 </div>
                 <!-- Actualizar informacion -->
                 <div :class="[(interaction.drop == 1) ? 'drop-show-section' : 'drop-hide-section']">
-                    <div class="section-show">
+                    <div class="section-sho                             w">
                         <div class="body-section">
                             <div class="section-items">
                                 <label>Nombres y Apellidos</label>
@@ -130,130 +133,133 @@
                 </div>
                 <!-- Actualizar Informacion 2 -->
                 <div :class="[(interaction.drop == 2) ? 'drop-show-section' : 'drop-hide-section']">
-                    <div class="section-show">
-                        <div class="body-section">
-                            <div class="section-items">
-                                <label>Contraseña Actual(*)</label>
-                                <input class="input-pass" type="text" placeholder="Contraseña Actual">
-                            </div>
-                            <div class="section-items">
-                                <label>Contraseña Nueva(*)</label>
-                                <input class="input-pass" name="password" type="text" placeholder="Contraseña Nueva">
-                            </div>
-                            <div class="section-items">
-                                <label>Repetir Contraseña(*)</label>
-                                <input class="input-pass" name="password" type="text" placeholder="Repetir Contraseña">
-                            </div>
-                        </div>
-                        <div class="footer-section">
-                            <button class="btn-footer">
-                                Actualizar
-                                <i class="material-icons">
-                                    change_circle
-                                </i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Actualizar contraseña -->
-                <div :class="[(interaction.drop == 3) ? 'drop-show-section' : 'drop-hide-section']">
-                    <div class="section-show">
-                        <div class="body-section">
-                            <div class="section-items">
-                                <label>Contraseña Actual(*)</label>
-                                <input class="input-pass password1" type="password" placeholder="Contraseña Actual">
-                                <i class="material-icons" @click="showPass1()">
-                                    visibility
-                                </i>
-                            </div>
-                            <div class="section-items">
-                                <label>Contraseña Nueva(*)</label>
-                                <input class="input-pass password2" name="password" type="password"
-                                    placeholder="Contraseña Nueva">
-                                <i class="material-icons" @click="showPass2()">
-                                    visibility
-                                </i>
-                            </div>
-                            <div class="section-items">
-                                <label>Repetir Contraseña(*)</label>
-                                <input class="input-pass password3" name="password" type="password"
-                                    placeholder="Repetir Contraseña">
-                                <i class="material-icons" @click="showPass3()">
-                                    visibility
-                                </i>
-                            </div>
-                        </div>
-                        <div class="footer-section">
-                            <button class="btn-footer">
-                                Actualizar
-                                <i class="material-icons">
-                                    change_circle
-                                </i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Ver Facturas -->
-                <div class="container-table">
-                    <div :class="[(interaction.drop == 4) ? 'drop-show-section' : 'drop-hide-section']">
-
-                        <table class="container">
-                            <thead>
-                                <tr>
-                                    <th>
-                                        <h1>Modulos</h1>
-                                    </th>
-                                    <th>
-                                        <h1>Precio</h1>
-                                    </th>
-                                    <th>
-                                        <h1>Total</h1>
-                                    </th>
-                                    <th>
-                                        <h1>Lorem</h1>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Pequeña Empresa</td>
-                                    <td>951</td>
-                                    <td>636</td>
-                                    <td>Pagado</td>
-                                </tr>
-                                <tr>
-                                    <td>Pequeña Empresa</td>
-                                    <td>732</td>
-                                    <td>104</td>
-                                    <td>Pagado</td>
-                                </tr>
-                                <tr>
-                                    <td>Pequeña Empresa</td>
-                                    <td>416</td>
-                                    <td>532</td>
-                                    <td>Pagado</td>
-                                </tr>
-                                <tr>
-                                    <td>Pequeña Empresa</td>
-                                    <td>365</td>
-                                    <td>296</td>
-                                    <td> No Pagado</td>
-                                </tr>
-                                <tr>
-                                    <td>Pequeña Empresa</td>
-                                    <td>200</td>
-                                    <td>413</td>
-                                    <td>No Pagado</td>
-                                </tr>
-                                <tr>
-                                    <td>Pequeña Empresa</td>
-                                    <td>462</td>
-                                    <td>348</td>
-                                    <td>No Pagado</td>
-                                </tr>
-                            </tbody>
+                    <div class="container-table">
+                        <table>
+                            <tr>
+                                <th>Factura</th>
+                                <th>Cliente</th>
+                                <th>Fecha</th>
+                                <th>Importe</th>
+                            </tr>
+                            <tr>
+                                <td>Pequeña Empresa</td>
+                                <td>Smith Adam jhonson De la torre</td>
+                                <td>30/09/2021</td>
+                                <td>S/. 250</td>
+                            </tr>
+                            <tr>
+                                <td>Pequeña Empresa</td>
+                                <td>Smith Adam jhonson De la torre</td>
+                                <td>30/10/2021</td>
+                                <td>S/. 250</td>
+                            </tr>
+                            <tr>
+                                <td>Pequeña Empresa</td>
+                                <td>Smith Adam jhonson De la torre</td>
+                                <td>30/11/2021</td>
+                                <td>S/. 250</td>
+                            </tr>
+                            <tr>
+                                <td>Mediana Empresa</td>
+                                <td>Smith Adam jhonson De la torre</td>
+                                <td>30/12/2021</td>
+                                <td>S/. 250</td>
+                            </tr>
+                            <tr>
+                                <td>Mediana Empresa</td>
+                                <td>Smith Adam jhonson De la torre</td>
+                                <td>30/01/2022</td>
+                                <td>S/. 250</td>
+                            </tr>
                         </table>
                     </div>
+                </div>
+            </div>
+            <!-- Actualizar contraseña -->
+            <div :class="[(interaction.drop == 3) ? 'drop-show-section' : 'drop-hide-section']">
+                <div class="section-show">
+                    <div class="body-section">
+                        <div class="section-items">
+                            <label>Contraseña Actual(*)</label>
+                            <input class="input-pass password1" type="password" placeholder="Contraseña Actual">
+                            <i class="material-icons" @click="showPass1()">
+                                visibility
+                            </i>
+                        </div>
+                        <div class="section-items">
+                            <label>Contraseña Nueva(*)</label>
+                            <input class="input-pass password2" name="password" type="password"
+                                placeholder="Contraseña Nueva">
+                            <i class="material-icons" @click="showPass2()">
+                                visibility
+                            </i>
+                        </div>
+                        <div class="section-items">
+                            <label>Repetir Contraseña(*)</label>
+                            <input class="input-pass password3" name="password" type="password"
+                                placeholder="Repetir Contraseña">
+                            <i class="material-icons" @click="showPass3()">
+                                visibility
+                            </i>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <button class="btn-footer">
+                            Actualizar
+                            <i class="material-icons">
+                                change_circle
+                            </i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Ver Facturas -->
+            <div :class="[(interaction.drop == 4) ? 'drop-show-section' : 'drop-hide-section']">
+                <div class="container-table">
+                    <table>
+                        <tr>
+                            <th>Detalles</th>
+                            <th>Precio</th>
+                            <th>Importe</th>
+                            <th>total</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Pequeña Empresa</td>
+                            <td>Smith Adam jhonson De la torre</td>
+                            <td>30/09/2021</td>
+                            <td>S/. 250</td>
+                            <td class="pay">Pagado</td>
+                        </tr>
+                        <tr>
+                            <td>Pequeña Empresa</td>
+                            <td>Smith Adam jhonson De la torre</td>
+                            <td>30/10/2021</td>
+                            <td>S/. 250</td>
+                            <td class="pay">Pagado</td>
+                        </tr>
+                        <tr>
+                            <td>Pequeña Empresa</td>
+                            <td>Smith Adam jhonson De la torre</td>
+                            <td>30/11/2021</td>
+                            <td>S/. 250</td>
+                            <td class="pay">Pagado</td>
+                        </tr>
+                        <tr>
+                            <td>Pequeña Empresa</td>
+                            <td>Smith Adam jhonson De la torre</td>
+                            <td>30/12/2021</td>
+                            <td>S/. 250</td>
+                            <td class="not-pay">No pagado</td>
+                        </tr>
+                        <tr>
+                            <td>Pequeña Empresa</td>
+                            <td>Smith Adam jhonson De la torre</td>
+                            <td>30/01/2022</td>
+                            <td>S/. 250</td>
+                            <td class="not-pay">No pagado</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
