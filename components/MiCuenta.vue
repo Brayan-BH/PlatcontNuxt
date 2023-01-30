@@ -110,7 +110,7 @@
                 </div>
                 <!-- Actualizar informacion -->
                 <div :class="[(interaction.drop == 1) ? 'drop-show-section' : 'drop-hide-section']">
-                    <div class="section-sho                             w">
+                    <div class="section-show">
                         <div class="body-section">
                             <div class="section-items">
                                 <label>Nombres y Apellidos</label>
