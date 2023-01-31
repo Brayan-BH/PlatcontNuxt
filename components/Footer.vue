@@ -51,12 +51,13 @@
                     <p>Contáctanos</p>
                     <ul class="platcont-items">
                         <li class="list border-bottom">
-                            <nuxt-link to="://924-700-200" class="text-light">Celular:
+                            <nuxt-link to="tel:+51924-700-200" class="text-light">Celular:
                                 924-700-200
                             </nuxt-link>
                         </li>
                         <li class="list border-bottom">
-                            <nuxt-link to="platcont@hotmail.com" class="text-light">Correo
+                            <nuxt-link to="mailto:platcont@hotmail.com" Subject="Aquí%20el%20asunto%20del%20mail" 
+                            class="text-light">Correo
                                 Electrónico: platcont@hotmail.com
                             </nuxt-link>
                         </li>

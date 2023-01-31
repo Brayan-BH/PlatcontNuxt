@@ -39,7 +39,7 @@
                         cupidatat et consequat. Ad cillum voluptate veniam cupidatat. Laborum pariatur
                         non
                         adipisicing labore sit veniam velit et officia tempor culpa pariatur.</p>
-                    <img src="/img/platcont-view.png">
+                    <img src="/img/modulos/contabilidad.jpg">
                 </div>
             </div>
             <div class="dropdawn-container">
@@ -59,7 +59,7 @@
                         cupidatat et consequat. Ad cillum voluptate veniam cupidatat. Laborum pariatur
                         non
                         adipisicing labore sit veniam velit et officia tempor culpa pariatur.</p>
-                    <img src="/img/platcont-view.png">
+                    <img src="/img/modulos/RRHH.webp">
                 </div>
             </div>
             <div class="dropdawn-container">
@@ -79,7 +79,7 @@
                         cupidatat et consequat. Ad cillum voluptate veniam cupidatat. Laborum pariatur
                         non
                         adipisicing labore sit veniam velit et officia tempor culpa pariatur.</p>
-                    <img src="/img/platcont-view.png">
+                    <img src="/img/modulos/stock.webp">
                 </div>
             </div>
             <div class="dropdawn-container">
@@ -99,7 +99,7 @@
                         cupidatat et consequat. Ad cillum voluptate veniam cupidatat. Laborum pariatur
                         non
                         adipisicing labore sit veniam velit et officia tempor culpa pariatur.</p>
-                    <img src="/img/platcont-view.png">
+                    <img src="/img/modulos/taxi.png">
                 </div>
             </div>
             <div class="dropdawn-container">
@@ -119,7 +119,7 @@
                         cupidatat et consequat. Ad cillum voluptate veniam cupidatat. Laborum pariatur
                         non
                         adipisicing labore sit veniam velit et officia tempor culpa pariatur.</p>
-                    <img src="/img/platcont-view.png">
+                    <img src="/img/modulos/transporte.png">
                 </div>
             </div>
             <div class="dropdawn-container">
@@ -141,7 +141,7 @@
                         non
                         adipisicing labore sit veniam velit et officia tempor culpa pariatur.
                     </p>
-                    <img src="/img/platcont-view.png">
+                    <img src="/img/modulos/costos.png">
                 </div>
             </div>
             <div class="dropdawn-container">
@@ -163,7 +163,7 @@
                         non
                         adipisicing labore sit veniam velit et officia tempor culpa pariatur.
                     </p>
-                    <img src="/img/platcont-view.png">
+                    <img src="/img/modulos/activos.png">
                 </div>
             </div>
             <div class="dropdawn-container">
@@ -185,7 +185,7 @@
                         non
                         adipisicing labore sit veniam velit et officia tempor culpa pariatur.
                     </p>
-                    <img src="/img/platcont-view.png">
+                    <img src="/img/modulos/caja.webp">
                 </div>
             </div>
             <div class="dropdawn-container">
@@ -207,7 +207,7 @@
                         non
                         adipisicing labore sit veniam velit et officia tempor culpa pariatur.
                     </p>
-                    <img src="/img/platcont-view.png">
+                    <img src="/img/modulos/financiera.png">
                 </div>
             </div>
         </div>

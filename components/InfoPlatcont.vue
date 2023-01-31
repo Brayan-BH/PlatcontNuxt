@@ -2,12 +2,16 @@
     <div class="main-head">
         <div class="head-banner">
             <p class="banner__text">
-                La aplicación Office se está convirtiendo en la nueva aplicación de Microsoft 365, su lugar para
-                buscar, crear
-                y compartir su contenido e ideas.
+                Conecta los departamentos de tu negocio y mejora la productividad y rentabilidad de tu empresa. Nuestro
+                software de gestión de servicios, te facilita la administración de tu negocio con acceso desde cualquier
+                lugar.
             </p>
             <p class="banner__link">
-                <span class="link__text">Obtener más información</span>
+                <span class="link__text">
+                    <NuxtLink to="/contactanos">
+                        Obtener más información
+                    </NuxtLink>
+                </span>
                 <span class="link__icon material-icons">navigate_next</span>
             </p>
         </div>
@@ -23,11 +27,13 @@
                             soporte, aseguramos el
                             éxito
                             de tu proyecto <br> y te acompañamos en tu crecimiento</p>
-                        <a>
+                        <nuxt-link>
                             <button class="button-clasic" type="button" role="button">
-                                Contactanos
+                                <NuxtLink to="/contactanos">
+                                    Contáctanos
+                                </NuxtLink>
                             </button>
-                        </a>
+                        </nuxt-link>
                     </div>
                 </div>
             </div>

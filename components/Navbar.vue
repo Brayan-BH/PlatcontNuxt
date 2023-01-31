@@ -38,9 +38,9 @@
                         <!-- <li class="ul__li">
                             <nuxt-link to="/login" class="li__text">Mi cuenta</nuxt-link>
                         </li> -->
-                        <li class="ul__li whats_platcont">
-                            <nuxt-link to="/platcont" class="li__text">¿Por qué Platcont?</nuxt-link>
-                        </li>
+                            <!-- <li class="ul__li whats_platcont">
+                                <nuxt-link to="/platcont" class="li__text">¿Por qué Platcont?</nuxt-link>
+                            </li> -->
                     </ul>
 
                 </nav>
@@ -51,7 +51,8 @@
                                 <ul class="menu_ul">
                                     <li class="ul__li">
                                         <div class="li__container">
-                                            <button type="button" class="li-container__button">¿Por qué Platcont?
+                                            <button type="button" class="li-container__button">
+                                                Productos
                                             </button>
                                             <ul class="li-container__menu">
                                                 <li class="">
