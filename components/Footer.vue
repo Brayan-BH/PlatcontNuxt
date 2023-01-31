@@ -7,7 +7,7 @@
                     <p>Platcont</p>
                     <ul class="platcont-items">
                         <li class="list">
-                            <nuxt-link to="/" class="text-light">Inicio</nuxt-link>
+                            <nuxt-link to="/modulos" class="text-light">Modulos</nuxt-link>
                         </li>
                         <li class="list">
                             <nuxt-link to="/whyplatcont" class="text-light">¿Por qué Platcont?</nuxt-link>
