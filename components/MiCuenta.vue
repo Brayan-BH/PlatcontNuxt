@@ -89,21 +89,21 @@
                     <div class="items" @click="dropClick(2)">
                         <p class="number">2</p>
                         <i class="material-icons">
-                            settings
+                            fact_check
                         </i>
                         <p class="sub">Fechas de Facturación</p>
                     </div>
                     <div class="items" @click="dropClick(3)">
                         <p class="number">3</p>
                         <i class="material-icons">
-                            key
+                            checklist
                         </i>
                         <p class="sub">Facturas</p>
                     </div>
                     <div class="items column-3" @click="dropClick(4)">
                         <p class="number">4</p>
                         <i class="material-icons">
-                            settings
+                            key
                         </i>
                         <p class="sub">Cambiar Contraseña</p>
                     </div>
