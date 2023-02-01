@@ -2,8 +2,8 @@
     <div class="main-head">
         <div class="head-banner">
             <p class="banner__text">
-                Conecta los departamentos de tu negocio y mejora la productividad y rentabilidad de tu empresa. Nuestro
-                <!-- software de gestión de servicios, te facilita la administración de tu negocio con acceso desde cualquier
+                Conecta los departamentos de tu negocio y mejora la productividad y rentabilidad de tu empresa. <!-- Nuestro
+                 software de gestión de servicios, te facilita la administración de tu negocio con acceso desde cualquier
                 lugar. -->
             </p>
             <p class="banner__link">
