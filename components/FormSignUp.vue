@@ -40,7 +40,7 @@
                                 Confirmar Contarseña
                             </label>
                         </div>
-                        <NuxtLink to="">Terminos y condiciones</NuxtLink>
+                        <!-- <NuxtLink to="">Terminos y condiciones</NuxtLink> -->
                         <div class="d-grid">
                             <button class="btn-register">
                                 <NuxtLink to="/signup">Crear Cuenta
