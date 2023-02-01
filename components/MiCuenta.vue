@@ -181,7 +181,7 @@
                     <table>
                         <tr>
                             <th>Detalles</th>
-                            <th>Precio</th>
+                            <th>Cliente</th>
                             <th>Importe</th>
                             <th>total</th>
                             <th></th>
