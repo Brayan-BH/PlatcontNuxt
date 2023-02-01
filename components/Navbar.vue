@@ -105,7 +105,7 @@
                         <div class="action__control">
                             <div class="control__container">
                                 <div class="container__text cl-session">
-                                    <nuxt-link to="/login" class="li__text">Inicar Sesión</nuxt-link>
+                                    <nuxt-link to="/login" class="li__text">Iniciar Sesión</nuxt-link>
                                 </div>
                                 <div class="container__icon">
                                     <nuxt-link to="/login" class="material-icons">login</nuxt-link>
