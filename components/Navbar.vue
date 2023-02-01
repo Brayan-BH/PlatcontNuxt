@@ -10,7 +10,7 @@
                         </div>
                     </nuxt-link >
                 </div>
-                <nuxt-link  class="item__logo" itemprop="url" href="#">
+                <nuxt-link  class="item__logo" itemprop="url" href="/">
                     <img class="logo__img" src="/img/logo.png" alt="logo">
                 </nuxt-link >
                 <div class="item__div">
