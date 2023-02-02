@@ -17,11 +17,13 @@
                     <div class="body-card">
                         <div class="body-content">
                             <div :class="[(interaction.drop == 1) ? 'drop-show' : 'drop-hide']">
-                                <p class="main-title">Basurto Huamán Brayan</p>
+                                <p class="main-title">Smith Adam jhonson De la torre</p>
                                 <p>Av. Ocopilla 660
                                 </p>
                                 <p>huancayo, junin, 1800</p>
                                 <p>Perú</p>
+                                <p>17897890765</p>
+                                <p>+51 967895677</p>
                             </div>
                         </div>
                     </div>
@@ -91,14 +93,14 @@
                         <i class="material-icons">
                             fact_check
                         </i>
-                        <p class="sub">Fechas de Facturación</p>
+                        <p class="sub">Pagos Pendientes</p>
                     </div>
                     <div class="items" @click="dropClick(3)">
                         <p class="number">3</p>
                         <i class="material-icons">
                             checklist
                         </i>
-                        <p class="sub">Facturas</p>
+                        <p class="sub">Historial de Pagos</p>
                     </div>
                     <div class="items column-3" @click="dropClick(4)">
                         <p class="number">4</p>
@@ -113,12 +115,20 @@
                     <div class="section-show">
                         <div class="body-section">
                             <div class="section-items">
-                                <label>Nombres y Apellidos</label>
+                                <label>Raz. Social - Ap. y Nombres</label>
                                 <input class="input-name" type="text" placeholder="Apellidos y Nombres">
                             </div>
                             <div class="section-items">
                                 <label>Dirección</label>
                                 <input class="input-direc" name="direccion" type="text" placeholder="Dirección Actual">
+                            </div>
+                            <div class="section-items">
+                                <label>RUC - DNI</label>
+                                <input class="input-documento" name="documento" type="text" placeholder="RUC - DNI">
+                            </div>
+                            <div class="section-items">
+                                <label>Télefono - Celular</label>
+                                <input class="input-telefono" name="telefono" type="tel" placeholder="Telefono">
                             </div>
                         </div>
                         <div class="footer-section">
@@ -131,51 +141,51 @@
                         </div>
                     </div>
                 </div>
-                <!-- Fechas de facturación-->
+                <!-- Pagos Pendientes-->
                 <div :class="[(interaction.drop == 2) ? 'drop-show-section' : 'drop-hide-section']">
                     <div class="container-table">
                         <table>
                             <tr>
                                 <th>Factura</th>
+                                <th>Periodo</th>
                                 <th>Cliente</th>
-                                <th>Fecha</th>
                                 <th>Importe</th>
                             </tr>
                             <tr>
                                 <td>Pequeña Empresa</td>
-                                <td>Smith Adam jhonson De la torre</td>
                                 <td>30/09/2021</td>
+                                <td>Smith Adam jhonson De la torre</td>
                                 <td>S/. 250</td>
                             </tr>
                             <tr>
                                 <td>Pequeña Empresa</td>
-                                <td>Smith Adam jhonson De la torre</td>
                                 <td>30/10/2021</td>
+                                <td>Smith Adam jhonson De la torre</td>
                                 <td>S/. 250</td>
                             </tr>
                             <tr>
                                 <td>Pequeña Empresa</td>
-                                <td>Smith Adam jhonson De la torre</td>
                                 <td>30/11/2021</td>
+                                <td>Smith Adam jhonson De la torre</td>
                                 <td>S/. 250</td>
                             </tr>
                             <tr>
                                 <td>Mediana Empresa</td>
-                                <td>Smith Adam jhonson De la torre</td>
                                 <td>30/12/2021</td>
+                                <td>Smith Adam jhonson De la torre</td>
                                 <td>S/. 250</td>
                             </tr>
                             <tr>
                                 <td>Mediana Empresa</td>
-                                <td>Smith Adam jhonson De la torre</td>
                                 <td>30/01/2022</td>
+                                <td>Smith Adam jhonson De la torre</td>
                                 <td>S/. 250</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <!-- Ver Facturas -->
+            <!-- Historial de Pagos -->
             <div :class="[(interaction.drop == 3) ? 'drop-show-section' : 'drop-hide-section']">
                 <div class="container-table">
                     <table>

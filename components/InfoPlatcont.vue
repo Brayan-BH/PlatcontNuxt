@@ -8,9 +8,9 @@
             </p>
             <p class="banner__link">
                 <span class="link__text">
-                    <NuxtLink to="/contactanos">
+                    <nuxt-link to="/contactanos">
                         Obtener más información
-                    </NuxtLink>
+                    </nuxt-link>
                 </span>
                 <span class="link__icon material-icons">navigate_next</span>
             </p>
@@ -27,13 +27,11 @@
                             soporte, aseguramos el
                             éxito
                             de tu proyecto <br> y te acompañamos en tu crecimiento</p>
-                        <nuxt-link>
-                            <button class="button-clasic" type="button" role="button">
-                                <NuxtLink to="/contactanos">
-                                    Contáctanos
-                                </NuxtLink>
-                            </button>
-                        </nuxt-link>
+                        <button class="button-clasic" type="button" role="button">
+                            <nuxt-link to="/contactanos">
+                                Contáctanos
+                            </nuxt-link>
+                        </button>
                     </div>
                 </div>
             </div>

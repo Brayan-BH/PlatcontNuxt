@@ -153,6 +153,7 @@
                     color: #43be1e
         .drop-show
             padding: 5%
+            line-height: 1.5
         .drop-hide
             display: none
             padding: 0
@@ -196,7 +197,7 @@
         .items
             background: #dedede
             width: 170px
-            height: 100px
+            height: 120px
             margin: 3px
             display: grid
             grid-template-columns: 1fr 1fr
@@ -227,14 +228,12 @@
                 text-align: justify
                 padding: 0 10px
     .drop-show-section
-        margin: 3rem 0
-        .input-pass, .input-name, .input-direc
+        margin: 3rem .5rem
+        .input-pass, .input-name, .input-direc, .input-documento, .input-telefono
             height: calc(2.5rem + 2px)
             line-height: 1.25
             display: block
-            width: 100%
             padding: 0.375rem 0.75rem
-            font-size: 1rem
             font-weight: 400
             line-height: 1.5
             margin-top: 1rem
@@ -252,19 +251,35 @@
         display: none
     .section-show
         background-color: #eee
-        width: 335px
+        border-radius: 15px
+        // width: 335px
         margin: 0 auto
     .body-section
-        width: 335px
         max-width: 100%
-        padding: 5%
+        padding: 3%
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: flex-start
+        gap: 10px
         i
             position: absolute
-            margin-top: -48px
-            margin-left: 270px
             cursor: pointer
+            padding-right: 10px
+        .section-items
+            display: flex
+            align-items: center
+            // flex-wrap: wrap
+            flex-direction: row
+            width: 400px
+            gap: 25px
+            justify-content: flex-end
+            > label
+                text-align: end
     .footer-section
         padding: 0.5rem
+        display: flex
+        justify-content: center
         .btn-footer
             border-color: #43be1e
             background-color: #43be1e
@@ -272,7 +287,7 @@
             height: 40px
             min-width: 130px
             text-decoration: none
-            width: 100%
+            // width: 100%
             font-size: 14px
             font-weight: 700
             text-transform: uppercase
@@ -284,3 +299,9 @@
             i
                 margin-left: 10px
                 font-size: 20px
+            &:hover
+                background-color: #fff
+                color: #111
+                font-weight: bold
+                border-color: #2e631e
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px
