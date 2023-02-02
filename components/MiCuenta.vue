@@ -273,10 +273,10 @@
                             <small>
                                 Consejos Utiles
                                 <ul class="list-recomendation">
-                                    <li>Utilice ambos caracteres, mayúsculas y minúsculas</li>
-                                    <li>Incluya almenos un símbolo <strong>(# $ ! % & etc..)</strong> </li>
-                                    <li>No utilice palabras del diccionario</li>
-                                    <li>Recuerda incluir números</li>
+                                    <li>&#42; Utilice ambos caracteres, mayúsculas y minúsculas</li>
+                                    <li>&#42; Incluya almenos un símbolo <strong>(# $ ! % & etc..)</strong> </li>
+                                    <li>&#42; No utilice palabras del diccionario</li>
+                                    <li>&#42; Recuerda incluir números</li>
                                 </ul>
                             </small>
                         </div>
