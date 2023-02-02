@@ -115,6 +115,10 @@
                     <div class="section-show">
                         <div class="body-section">
                             <div class="section-items">
+                                <label>RUC - DNI</label>
+                                <input class="input-documento" name="documento" type="text" placeholder="RUC - DNI">
+                            </div>
+                            <div class="section-items">
                                 <label>Raz. Social - Ap. y Nombres</label>
                                 <input class="input-name" type="text" placeholder="Apellidos y Nombres">
                             </div>
@@ -123,8 +127,8 @@
                                 <input class="input-direc" name="direccion" type="text" placeholder="Dirección Actual">
                             </div>
                             <div class="section-items">
-                                <label>RUC - DNI</label>
-                                <input class="input-documento" name="documento" type="text" placeholder="RUC - DNI">
+                                <label>Correo Electronico</label>
+                                <input class="input-correo" name="correo" type="email" placeholder="Correo Electronico">
                             </div>
                             <div class="section-items">
                                 <label>Télefono - Celular</label>
@@ -264,6 +268,17 @@
                             <i class="material-icons" @click="showPass1()">
                                 visibility
                             </i>
+                        </div>
+                        <div class="recomendation">
+                            <small>
+                                Consejos Utiles
+                                <ul class="list-recomendation">
+                                    <li>Utilice ambos caracteres, mayúsculas y minúsculas</li>
+                                    <li>Incluya almenos un símbolo <strong>(# $ ! % & etc..)</strong> </li>
+                                    <li>No utilice palabras del diccionario</li>
+                                    <li>Recuerda incluir números</li>
+                                </ul>
+                            </small>
                         </div>
                         <div class="section-items">
                             <label>Contraseña Nueva(*)</label>
