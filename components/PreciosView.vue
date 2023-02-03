@@ -222,7 +222,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="item-card">
                     <div class="card">
                         <img class="card__img"
