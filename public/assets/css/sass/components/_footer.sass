@@ -6,17 +6,19 @@
     margin-right: auto
     margin-left: auto
     width: 100%
-    background-color: #33495f
+    background-color: #335f3a
     .content-container
         padding: 0 5%
         margin-right: auto
         margin-left: auto
         width: 100%
         .row
-            display: flex
-            flex-wrap: wrap
+            display: grid
+            grid-template-columns: 1fr 1fr 1fr
             margin-right: -15px
             margin-left: -15px
+            column-gap: 10px
+
             .footer-menu
                 margin-bottom: 2rem
                 flex: 0 0 50%
@@ -24,8 +26,8 @@
                 position: relative
                 width: 100%
                 min-height: 1px
-                padding-right: 15px
-                padding-left: 15px
+                // padding-right: 15px
+                // padding-left: 15px
                 p
                     font-weight: 700
                     font-size: 1.25rem
@@ -38,7 +40,7 @@
                         margin-bottom: 1rem
                         margin-top: 0
                     a
-                        line-height: 2
+                        line-height: 1.5
                         text-decoration: none
                         color: #fff
 .footer-sociales
@@ -48,8 +50,8 @@
     position: relative
     width: 100%
     min-height: 1px
-    padding-right: 15px
-    padding-left: 15px
+    // padding-right: 15px
+    // padding-left: 15px
     p
         font-weight: 700
         font-size: 1.25rem
@@ -57,8 +59,8 @@
     .red-social
         font-size: 1.5rem
         margin-bottom: .1rem
-        padding-left: 15px
-        padding-right: 15px
+        // padding-left: 15px
+        // padding-right: 15px
         display: grid
 .footer-contactos
     margin-bottom: 2rem
@@ -67,8 +69,8 @@
     position: relative
     width: 100%
     min-height: 1px
-    padding-right: 15px
-    padding-left: 15px
+    // padding-right: 15px
+    // padding-left: 15px
     p
         font-weight: 700
         font-size: 1.25rem
