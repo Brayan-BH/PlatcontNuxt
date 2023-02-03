@@ -221,7 +221,7 @@ export default {
     data() {
         return {
             interaction: {
-                tab: 0
+                tab: 1
             }
         }
     },
