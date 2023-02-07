@@ -25,24 +25,36 @@
                 <div class="footer-sociales">
                     <p>Redes Sociales</p>
                     <div class="red-social">
-                        <nuxt-link to="https://twitter.com/?lang=es" target=" _blank">
-                            <img src="/img/icons/twitter.png" alt="facebook" width="30">
-                        </nuxt-link>
+                        <p>
+                            <nuxt-link to="https://twitter.com/?lang=es" target=" _blank">
+                                <img src="/img/icons/twitter.png" alt="twitter" width="30">
+                            </nuxt-link>
+                            Twitter
+                        </p>
                     </div>
                     <div class="red-social">
-                        <nuxt-link to="https://www.youtube.com" target=" _blank">
-                            <img src="/img/icons/youtube.png" alt="facebook" width="30">
-                        </nuxt-link>
+                        <p>
+                            <nuxt-link to="https://www.youtube.com" target=" _blank">
+                                <img src="/img/icons/youtube.png" alt="youtube" width="30">
+                            </nuxt-link>
+                            Youtube
+                        </p>
                     </div>
                     <div class="red-social">
-                        <nuxt-link to="https://www.facebook.com" target=" _blank">
-                            <img src="/img/icons/facebook_messenger.png" alt="facebook" width="30">
-                        </nuxt-link>
+                        <p>
+                            <nuxt-link to="https://www.facebook.com" target=" _blank">
+                                <img src="/img/icons/facebook_messenger.png" alt="facebook" width="30">
+                            </nuxt-link>
+                            Facebook
+                        </p>
                     </div>
                     <div class="red-social column-2">
-                        <nuxt-link to="https://api.whatsapp.com/send?phone=51924700200" target=" _blank">
-                            <img src="/img/icons/whatsapp.png" alt="facebook" width="30">
-                        </nuxt-link>
+                        <p>
+                            <nuxt-link to="https://api.whatsapp.com/send?phone=51924700200" target=" _blank">
+                                <img src="/img/icons/whatsapp.png" alt="facebook" width="30">
+                            </nuxt-link>
+                            whatsApp
+                        </p>
                     </div>
                 </div>
                 <!--  -->

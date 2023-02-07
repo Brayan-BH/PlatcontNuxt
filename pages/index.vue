@@ -5,6 +5,7 @@
         <Caracteristicas />
         <ModulosView />
         <PreciosView />
+        <AppDownload />
         <Footer />
         <!-- <div class="float-end">
             <i class="material-icons">
