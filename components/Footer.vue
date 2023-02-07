@@ -1,8 +1,7 @@
 <template>
     <div class="container-foot">
         <div class="content-container">
-            <div class="row">
-                <!-- Footer Menu -->
+            <!-- <div class="row">
                 <div class="footer-menu">
                     <p>Platcont</p>
                     <ul class="platcont-items">
@@ -20,8 +19,6 @@
                         </li>
                     </ul>
                 </div>
-                <!--  -->
-                <!-- Footer Redes -->
                 <div class="footer-sociales">
                     <p>Redes Sociales</p>
                     <div class="red-social">
@@ -57,8 +54,6 @@
                         </p>
                     </div>
                 </div>
-                <!--  -->
-                <!-- Footer Contacto -->
                 <div class="footer-contactos">
                     <p>Contáctanos</p>
                     <ul class="platcont-items">
@@ -75,7 +70,76 @@
                         </li>
                     </ul>
                 </div>
-                <!--  -->
+            </div> -->
+            <div class="FooterContainer-up">
+                <div class="u-wrapper FooterGrid-up">
+                    <div class="SloganSection">
+                        <figure><img loading="lazy" src="/img/logo.png" alt="Platcont"></figure>
+                        <p><span>PLATCONT es más que un software. De la mano con un servicio
+                                permanente de soporte, aseguramos el éxito de tu proyecto
+                                y te acompañamos en tu crecimiento.</span></p>
+                    </div>
+                    <div class="SocialLayout">
+                        <span>Siguenos en nuestras redes:</span>
+                        <a href="https://twitter.com" class="SocialItem" target="_blank" rel="noreferrer">
+                            <img class="svg-inline" src="/img/icons/twitter.png">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UC55-mxUj5Nj3niXFReG44OQ" class="SocialItem"
+                            target="_blank" rel="noreferrer">
+                            <img class="svg-inline" src="/img/icons/youtube.png">
+                        </a>
+                        <a href="https://facebook.com/" class="SocialItem" target="_blank" rel="noreferrer">
+                            <img class="svg-inline" src="/img/icons/facbook.png">
+                        </a>
+                        <a href="https://www.instagram.com/" class="SocialItem" target="_blank" rel="noreferrer">
+                            <img class="svg-inline" src="/img/icons/instagram.png">
+                        </a>
+                    </div>
+                    <div class="CategoriesSection">
+                        <div href="" class="Category" style="border-left:solid 3px #FFBB00"><a href="">Contabilidad</a>
+                            <div class="Arrow"></div>
+                        </div>
+                        <div href="" class="Category" style="border-left:solid 3px #218371"><a href="">Recursos
+                                Humanos</a>
+                            <div class="Arrow"></div>
+                        </div>
+                        <div href="" class="Category" style="border-left:solid 3px #1476B8"><a href="">Stock</a>
+                            <div class="Arrow"></div>
+                        </div>
+                        <div href="" class="Category" style="border-left:solid 3px #CE3B3E"><a href="">Taxi</a>
+                            <div class="Arrow"></div>
+                        </div>
+                        <div href="" class="Category" style="border-left:solid 3px #81439D"><a href="">Transportes</a>
+                            <div class="Arrow"></div>
+                        </div>
+                        <div href="" class="Category" style="border-left:solid 3px #FF8D0A">
+                            <a href="">Costos</a>
+                            <div class="Arrow"></div>
+                        </div>
+                        <div href="" class="Category" style="border-left:solid 3px #17871D"><a href="">Activos Fijos</a>
+                            <div class="Arrow"></div>
+                        </div>
+                        <div href="" class="Category" style="border-left:solid 3px #C92387">
+                            <a href="">Caja</a>
+                            <div class="Arrow">
+                            </div>
+                        </div>
+                        <div href="" class="Category" style="border-left:solid 3px #23BEC9">
+                            <a href="">Financiera</a>
+                            <div class="Arrow">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="CertifiersLayout">
+                        <span>Certificadores oficiales en tecnologías</span>
+                        <div class="Certifier">
+                            <p>contabilidad </p>
+                        </div>
+                    </div>
+                    <div class="AwardsLayout">
+                        <span>Grande Empresas</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

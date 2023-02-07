@@ -1,93 +1,152 @@
-.container-foot
-    color: #f8f9fa
-    padding-top: 3rem
-    padding-right: 15px
-    padding-left: 15px
-    margin-right: auto
-    margin-left: auto
-    width: 100%
-    background-color: #335f3a
-    .content-container
-        padding: 0 5%
-        margin-right: auto
-        margin-left: auto
-        width: 100%
-        .row
-            display: grid
-            grid-template-columns: 1fr 1fr 1fr
-            margin-right: -15px
-            margin-left: -15px
-            column-gap: 10px
-
-            .footer-menu
-                margin-bottom: 2rem
-                flex: 0 0 50%
-                max-width: 50%
-                position: relative
-                width: 100%
-                min-height: 1px
-                // padding-right: 15px
-                // padding-left: 15px
-                p
-                    font-weight: 700
-                    font-size: 1.25rem
-                    margin-bottom: .5rem
-                .platcont-items
-                    text-decoration: none
-                    padding-left: 0
-                    list-style: none
-                    li
-                        margin-bottom: 1rem
-                        margin-top: 0
-                    a
-                        line-height: 1.5
-                        text-decoration: none
-                        color: #fff
-.footer-sociales
-    margin-bottom: 2rem
-    flex: 0 0 50%
-    max-width: 50%
-    position: relative
-    width: 100%
-    min-height: 1px
-    // padding-right: 15px
-    // padding-left: 15px
-    p
-        font-weight: 700
-        font-size: 1.25rem
-        margin-bottom: .5rem
-        display: flex
-        gap: 15px
-        align-items: center
-    .red-social
-        font-size: 1.5rem
-        margin-bottom: .1rem
-        // padding-left: 15px
-        // padding-right: 15px
+.FooterContainer-up
+    background: #172e13
+    padding-top: 1em
+    padding-left: 1em
+    color: #fff
+    .u-wrapper
+        -webkit-box-sizing: border-box
+        -moz-box-sizing: border-box
+        box-sizing: border-box
+        margin: 0 auto
+        max-width: 1200px
+        padding: 0 0.5rem
+        position: relative
+    .FooterGrid-up
         display: grid
-.footer-contactos
-    margin-bottom: 2rem
-    flex: 0 0 50%
-    max-width: 50%
-    position: relative
-    width: 100%
-    min-height: 1px
-    // padding-right: 15px
-    // padding-left: 15px
-    p
-        font-weight: 700
-        font-size: 1.25rem
-        margin-bottom: .5rem
-    .platcont-items
-        text-decoration: none
-        padding-left: 0
-        list-style: none
-        .border-bottom
-            border-bottom: 1px solid #dee2e6!important
-        li
-            margin-bottom: 1rem
-            margin-top: 0
-            a
-                line-height: 2
-                text-decoration: none
+        grid-template-columns: repeat(6,1fr)
+        grid-template-rows: 1fr 1fr
+        > div
+            width: auto
+        .SloganSection
+            grid-column: 1/3
+            grid-row-start: 1
+            max-width: 368px
+            display: block
+            margin-bottom: 0
+            img
+                margin: 0 0 5px -15px
+                width: 150px
+                border-style: none
+            p
+                margin: 0
+                text-align: left
                 color: #fff
+                margin: 0 0.5em 1em
+        .SocialLayout
+            -webkit-box-align: center
+            -moz-box-align: center
+            -o-box-align: center
+            -ms-flex-align: center
+            -webkit-box-lines: multiple
+            -moz-box-lines: multiple
+            -o-box-lines: multiple
+            -webkit-box-pack: distribute
+            -moz-box-pack: distribute
+            -o-box-pack: distribute
+            -ms-flex-pack: distribute
+            -ms-flex-line-pack: center
+            -webkit-align-content: center
+            align-content: center
+            -webkit-align-items: center
+            align-items: center
+            color: #fff
+            display: -webkit-box
+            display: -moz-box
+            display: -webkit-flex
+            display: -ms-flexbox
+            display: box
+            display: flex
+            -webkit-flex-wrap: wrap
+            -ms-flex-wrap: wrap
+            flex-wrap: wrap
+            grid-column: 1/3
+            grid-row-start: 2
+            -webkit-justify-content: space-around
+            justify-content: space-around
+            margin-bottom: 1em
+            max-width: 170px
+            span
+                font-size: 14px
+                padding: 1em 0
+                width: 100%
+            .SocialItem
+                color: #fff
+                font-size: 18px
+                text-decoration: none
+            .svg-inline
+                display: inline-block
+                font-size: inherit
+                height: 1em
+                overflow: visible
+                vertical-align: -.125em
+                font-size: 18px
+        .CategoriesSection
+            // background-color: #19303c    
+            -webkit-box-sizing: border-box
+            -moz-box-sizing: border-box
+            box-sizing: border-box
+            grid-column: 3/5
+            grid-row: 1/3
+            margin: .5em -1em
+            padding: .5em 1.5em
+            .Category
+                -webkit-box-pack: justify
+                -moz-box-pack: justify
+                -o-box-pack: justify
+                -ms-flex-pack: justify
+                -webkit-box-align: center
+                -moz-box-align: center
+                -o-box-align: center
+                -ms-flex-align: center
+                -webkit-align-items: center
+                align-items: center
+                display: -webkit-box
+                display: -moz-box
+                display: -webkit-flex
+                display: -ms-flexbox
+                display: box
+                display: flex
+                font-size: 14px
+                -webkit-justify-content: space-between
+                justify-content: space-between
+                margin: 1em 0
+                padding-left: .5em
+                a
+                    color: #fff
+                    text-decoration: none
+                    width: 100%
+                .Arrow
+                    border: 4px solid transparent
+                    border-left-color: #fff
+                    height: 0
+                    width: 0
+        .CertifiersLayout
+            -webkit-box-lines: multiple
+            -moz-box-lines: multiple
+            -o-box-lines: multiple
+            -webkit-box-pack: center
+            -moz-box-pack: center
+            -o-box-pack: center
+            -ms-flex-pack: center
+            -ms-flex-line-pack: baseline
+            -webkit-align-content: baseline
+            align-content: baseline
+            color: #fff
+            display: -webkit-box
+            display: -moz-box
+            display: -webkit-flex
+            display: -ms-flexbox
+            display: box
+            display: flex
+            -webkit-flex-wrap: wrap
+            -ms-flex-wrap: wrap
+            flex-wrap: wrap
+            grid-column: 5/7
+            -webkit-justify-content: center
+            justify-content: center
+            padding: 1em
+            span
+                text-align: left
+                font-size: 14px
+                padding-bottom: 1em
+                width: 100%
