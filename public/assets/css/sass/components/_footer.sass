@@ -12,27 +12,40 @@
         padding: 0 0.5rem
         position: relative
     .FooterGrid-up
-        display: grid
-        grid-template-columns: repeat(6,1fr)
-        grid-template-rows: 1fr 1fr
-        > div
-            width: auto
+        -webkit-box-lines: multiple
+        -moz-box-lines: multiple
+        -o-box-lines: multiple
+        -webkit-box-pack: center
+        -moz-box-pack: center
+        -o-box-pack: center
+        -ms-flex-pack: center
+        display: -webkit-box
+        display: -moz-box
+        display: -webkit-flex
+        display: -ms-flexbox
+        display: box
+        display: flex
+        -webkit-flex-wrap: wrap
+        -ms-flex-wrap: wrap
+        flex-wrap: wrap
+        -webkit-justify-content: center
+        justify-content: center
+        >div
+            max-width: 1200px
+            width: 100%
         .SloganSection
             grid-column: 1/3
             grid-row-start: 1
             max-width: 368px
-            display: block
-            margin-bottom: 0
+            display: contents
             img
                 margin: 0 0 5px -15px
-                width: 110px
-                height: 70px
+                width: 150px
                 border-style: none
             p
                 margin: 0
                 text-align: left
                 color: #fff
-                margin: 0 0.5em 1em
         .SocialLayout
             -webkit-box-align: center
             -moz-box-align: center
@@ -67,7 +80,7 @@
             margin-bottom: 1em
             max-width: 170px
             span
-                font-size: 14px
+                font-size: 16px
                 padding: 1em 0
                 width: 100%
             .SocialItem
@@ -116,11 +129,11 @@
                     color: #fff
                     text-decoration: none
                     width: 100%
-                .Arrow
-                    border: 4px solid transparent
-                    border-left-color: #fff
-                    height: 0
-                    width: 0
+        .Arrow
+            border: 4px solid transparent
+            border-left-color: #fff
+            height: 0
+            width: 0
         .CertifiersLayout
             -webkit-box-lines: multiple
             -moz-box-lines: multiple
@@ -151,3 +164,31 @@
                 font-size: 14px
                 padding-bottom: 1em
                 width: 100%
+@media only screen and (min-width: 48rem)
+    .FooterContainer-up
+        padding-top: 1em
+        .FooterGrid-up
+            display: grid
+            grid-template-columns: repeat(6,1fr)
+            grid-template-rows: 1fr 1fr
+            >div
+                width: auto
+            .SloganSection
+                display: block
+                margin-bottom: 0
+                p
+                    text-align: left
+            .SocialLayout
+                -webkit-box-pack: justify
+                -moz-box-pack: justify
+                -o-box-pack: justify
+                -ms-flex-pack: justify
+                -webkit-justify-content: space-between
+                justify-content: space-between
+            .CertifiersLayout
+                -webkit-box-pack: start
+                -moz-box-pack: start
+                -o-box-pack: start
+                -ms-flex-pack: start
+                -webkit-justify-content: start
+                justify-content: start

@@ -11,7 +11,7 @@
                     </nuxt-link >
                 </div>
                 <nuxt-link  class="item__logo" itemprop="url" href="/">
-                    <img class="logo__img" src="/img/logo.jpeg" alt="logo">
+                    <img class="logo__img" src="/img/logo-all.png" alt="logo">
                 </nuxt-link >
                 <div class="item__div">
                     <nuxt-link class="div__text" to="/">

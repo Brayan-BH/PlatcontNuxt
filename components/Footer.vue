@@ -74,10 +74,16 @@
             <div class="FooterContainer-up">
                 <div class="u-wrapper FooterGrid-up">
                     <div class="SloganSection">
-                        <figure><img loading="lazy" src="/img/logo.png" alt="Platcont"></figure>
-                        <p><span>PLATCONT es más que un software. De la mano con un servicio
+                        <figure>
+                            <img loading="lazy" src="/img/logo.png" alt="Platcont">
+                        </figure>
+                        <p>
+                            <span>
+                                PLATCONT es más que un software. De la mano con un servicio
                                 permanente de soporte, aseguramos el éxito de tu proyecto
-                                y te acompañamos en tu crecimiento.</span></p>
+                                y te acompañamos en tu crecimiento.
+                            </span>
+                        </p>
                     </div>
                     <div class="SocialLayout">
                         <span>Siguenos en nuestras redes:</span>
@@ -133,7 +139,7 @@
                     <div class="CertifiersLayout">
                         <span>Certificadores oficiales en tecnologías</span>
                         <div class="Certifier">
-                            <p>contabilidad </p>
+                            <p>Pequeña Empresa</p>
                         </div>
                     </div>
                     <div class="AwardsLayout">
