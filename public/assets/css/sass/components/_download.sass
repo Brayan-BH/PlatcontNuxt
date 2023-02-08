@@ -4,7 +4,6 @@
     // grid-template-columns: 1fr 1fr
     max-width: 100%
     min-width: 303px
-    display: grid
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
     grid-auto-flow: dense
     grid-auto-columns: auto
@@ -12,10 +11,10 @@
         line-height: 1.5
         margin: 3rem auto
         .title-header
-            font-size: 3rem
+            font-size: 2rem
         p
             margin: 1.5rem 0
-            font-size: 1.5rem
+            font-size: 1rem
             text-align: left
     .downloads
         display: flex
@@ -23,10 +22,10 @@
     .img-mobile-fluid
         display: flex
         justify-content: center
-        margin: 3rem auto
+        margin: 3rem auto 0.5rem
         img
-            width: 50%
-            heigth: 50%
+            max-width: 100%
+            width: 200px
     .btn-download
         border-color: #43be1e
         background-color: #43be1e
