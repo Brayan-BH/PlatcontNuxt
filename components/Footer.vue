@@ -75,7 +75,9 @@
                 <div class="u-wrapper FooterGrid-up">
                     <div class="SloganSection">
                         <figure>
-                            <img loading="lazy" src="/img/logo.png" alt="Platcont">
+                            <nuxt-link to="/">
+                                <img loading="lazy" src="/img/logo.png" alt="Platcont">
+                            </nuxt-link>
                         </figure>
                         <p>
                             <span>
@@ -87,64 +89,79 @@
                     </div>
                     <div class="SocialLayout">
                         <span>Siguenos en nuestras redes:</span>
-                        <a href="https://twitter.com" class="SocialItem" target="_blank" rel="noreferrer">
+                        <nuxt-link to="https://twitter.com" class="SocialItem" target="_blank" rel="noreferrer">
                             <img class="svg-inline" src="/img/icons/twitter.png">
-                        </a>
-                        <a href="https://www.youtube.com/channel/UC55-mxUj5Nj3niXFReG44OQ" class="SocialItem"
+                        </nuxt-link>
+                        <nuxt-link to="https://www.youtube.com/channel/UC55-mxUj5Nj3niXFReG44OQ" class="SocialItem"
                             target="_blank" rel="noreferrer">
                             <img class="svg-inline" src="/img/icons/youtube.png">
-                        </a>
-                        <a href="https://facebook.com/" class="SocialItem" target="_blank" rel="noreferrer">
+                        </nuxt-link>
+                        <nuxt-link to="https://facebook.com/" class="SocialItem" target="_blank" rel="noreferrer">
                             <img class="svg-inline" src="/img/icons/facbook.png">
-                        </a>
-                        <a href="https://www.instagram.com/" class="SocialItem" target="_blank" rel="noreferrer">
+                        </nuxt-link>
+                        <nuxt-link to="https://www.instagram.com/" class="SocialItem" target="_blank" rel="noreferrer">
                             <img class="svg-inline" src="/img/icons/instagram.png">
-                        </a>
+                        </nuxt-link>
                     </div>
                     <div class="CategoriesSection">
-                        <div href="" class="Category" style="border-left:solid 3px #FFBB00"><a href="">Contabilidad</a>
+                        <div to="" class="Category" style="border-left:solid 3px #FFBB00"><nuxt-link
+                                to="/modulos">Contabilidad</nuxt-link>
                             <div class="Arrow"></div>
                         </div>
-                        <div href="" class="Category" style="border-left:solid 3px #218371"><a href="">Recursos
-                                Humanos</a>
+                        <div to="" class="Category" style="border-left:solid 3px #218371"><nuxt-link
+                                to="/modulos">Recursos
+                                Humanos</nuxt-link>
                             <div class="Arrow"></div>
                         </div>
-                        <div href="" class="Category" style="border-left:solid 3px #1476B8"><a href="">Stock</a>
+                        <div to="" class="Category" style="border-left:solid 3px #1476B8"><nuxt-link
+                                to="/modulos">Stock</nuxt-link>
                             <div class="Arrow"></div>
                         </div>
-                        <div href="" class="Category" style="border-left:solid 3px #CE3B3E"><a href="">Taxi</a>
+                        <div to="" class="Category" style="border-left:solid 3px #CE3B3E"><nuxt-link
+                                to="/modulos">Taxi</nuxt-link>
                             <div class="Arrow"></div>
                         </div>
-                        <div href="" class="Category" style="border-left:solid 3px #81439D"><a href="">Transportes</a>
+                        <div to="" class="Category" style="border-left:solid 3px #81439D"><nuxt-link
+                                to="/modulos">Transportes</nuxt-link>
                             <div class="Arrow"></div>
                         </div>
-                        <div href="" class="Category" style="border-left:solid 3px #FF8D0A">
-                            <a href="">Costos</a>
+                        <div to="" class="Category" style="border-left:solid 3px #FF8D0A">
+                            <nuxt-link to="/modulos">Costos</nuxt-link>
                             <div class="Arrow"></div>
                         </div>
-                        <div href="" class="Category" style="border-left:solid 3px #17871D"><a href="">Activos Fijos</a>
+                        <div to="" class="Category" style="border-left:solid 3px #17871D"><nuxt-link
+                                to="/modulos">Activos Fijos</nuxt-link>
                             <div class="Arrow"></div>
                         </div>
-                        <div href="" class="Category" style="border-left:solid 3px #C92387">
-                            <a href="">Caja</a>
+                        <div to="" class="Category" style="border-left:solid 3px #C92387">
+                            <nuxt-link to="/modulos">Caja</nuxt-link>
                             <div class="Arrow">
                             </div>
                         </div>
-                        <div href="" class="Category" style="border-left:solid 3px #23BEC9">
-                            <a href="">Financiera</a>
+                        <div to="" class="Category" style="border-left:solid 3px #23BEC9">
+                            <nuxt-link to="/modulos">Financiera</nuxt-link>
                             <div class="Arrow">
                             </div>
                         </div>
                     </div>
-                    <div class="CertifiersLayout">
-                        <span>Certificadores oficiales en tecnologías</span>
-                        <div class="Certifier">
-                            <p>Pequeña Empresa</p>
+                    <div class="ContactsLayout">
+                        <span>Contactanos</span>
+                        <div class="Contacts">
+                            <nuxt-link to="tel://924-700-200" target=" _blank">
+                                <img src="/img/icons/phone.png" alt="facebook" width="50">
+                            </nuxt-link>
+                            <h5 class="font-weight-bold">Telefono +51 924700200</h5>
+                        </div>
+                        <div class="Contacts">
+                            <nuxt-link to="tel://924-700-200" target=" _blank">
+                                <img src="/img/icons/mail.png" alt="mail" width="50">
+                            </nuxt-link>
+                            <h5 class="font-weight-bold">platcont@hotmail.com</h5>
                         </div>
                     </div>
-                    <div class="AwardsLayout">
+                    <!-- <div class="AwardsLayout">
                         <span>Grande Empresas</span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
