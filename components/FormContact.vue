@@ -44,7 +44,7 @@
             <div class="contact-message">
                 <div class="social">
                     <nuxt-link to="tel://924-700-200" target=" _blank">
-                        <img src="/img/icons/phone.png" alt="facebook" width="50">
+                        <img src="/img/icons/phone.png" alt="telefono" width="50">
                     </nuxt-link>
                     <h5 class="font-weight-bold">Telefono +51 924700200</h5>
                     <nuxt-link to="tel://924-700-200" target=" _blank">

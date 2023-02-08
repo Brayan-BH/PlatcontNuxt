@@ -156,7 +156,7 @@
                             <h5 class="font-weight-bold">Telefono +51 924700200</h5>
                         </div>
                         <div class="Contacts">
-                            <nuxt-link to="tel://924-700-200" target=" _blank">
+                            <nuxt-link to="mail:platcont@hotmail.com" target=" _blank">
                                 <!-- <img src="/img/icons/mail.png" alt="mail" width="50"> -->
                                 <i class="material-icons">
                                     email
