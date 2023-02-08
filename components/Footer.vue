@@ -148,13 +148,19 @@
                         <span>Contactanos</span>
                         <div class="Contacts">
                             <nuxt-link to="tel://924-700-200" target=" _blank">
-                                <img src="/img/icons/phone.png" alt="facebook" width="50">
+                                <!-- <img src="/img/icons/phone.png" alt="facebook" width="50"> -->
+                                <i class="material-icons">
+                                    phone_android
+                                </i>
                             </nuxt-link>
                             <h5 class="font-weight-bold">Telefono +51 924700200</h5>
                         </div>
                         <div class="Contacts">
                             <nuxt-link to="tel://924-700-200" target=" _blank">
-                                <img src="/img/icons/mail.png" alt="mail" width="50">
+                                <!-- <img src="/img/icons/mail.png" alt="mail" width="50"> -->
+                                <i class="material-icons">
+                                    email
+                                </i>
                             </nuxt-link>
                             <h5 class="font-weight-bold">platcont@hotmail.com</h5>
                         </div>
